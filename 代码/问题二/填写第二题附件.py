@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]
 CASES = {
     16: ('q2_tenth_b16', 'q2_tenth_joint_b16'),
     24: ('q2_tenth_b24', 'q2_tenth_joint_b24'),
-    30: ('q2_single_skill_b30_seed', 'q2_joint_legacy_b30'),
+    30: ('q2_tenth_b30', 'q2_tenth_joint_b30'),
 }
 CODE = {'tow':'0102','power_a':'0203','aircon_a':'0204','oil':'0205',
         'fuel':'0206','material':'0207','parachute':'0708','oxygen':'0910',
@@ -21,7 +21,7 @@ SKILL = {'M1':'08','M2':'03','M3':'06','M4':'07','M5':'01','M6':'02','M7':'04','
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('--output', type=Path, default=ROOT/'results/附件1_C_Solution1_实体证书草案.xlsx')
+    ap.add_argument('--output', type=Path, default=ROOT/'results/附件1_C_Solution1_填报.xlsx')
     args=ap.parse_args()
     template=ROOT/'附件模版/附件1  C_Solution1.xlsx'
     book=load_workbook(template)

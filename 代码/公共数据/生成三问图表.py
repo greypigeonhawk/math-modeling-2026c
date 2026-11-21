@@ -25,7 +25,7 @@ def q1():
 
 
 def q2():
-    names=['q2_tenth_joint_b16','q2_tenth_joint_b24','q2_joint_legacy_b30']
+    names=['q2_tenth_joint_b16','q2_tenth_joint_b24','q2_tenth_joint_b30']
     ds=[json.loads((ROOT/'results'/f'{n}.json').read_text()) for n in names]
     labels=['32A+16B','32A+24B','32A+30B']; x=np.arange(3)
     fig,ax=plt.subplots(figsize=(6.5,3));
