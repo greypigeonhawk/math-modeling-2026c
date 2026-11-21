@@ -1,0 +1,54 @@
+{
+  "promoted_skills": [
+    [
+      "M1",
+      "加油"
+    ],
+    [
+      "M3",
+      "电源空调"
+    ],
+    [
+      "M5",
+      "餐食"
+    ],
+    [
+      "M6",
+      "充气"
+    ],
+    [
+      "M7",
+      "餐食"
+    ]
+  ],
+  "people_additions": {
+    "M6": 0,
+    "M1": 0,
+    "M8": 0,
+    "M7": 2,
+    "M2": 0,
+    "M4": 0,
+    "M5": 0,
+    "M3": 0
+  },
+  "vehicle_additions": {
+    "Z2": 16,
+    "Z3": 0,
+    "Z4": 0,
+    "Z8": 7,
+    "Z1": 6,
+    "Z7": 1,
+    "Z5": 10,
+    "Z6": 9,
+    "Z9": 2
+  },
+  "source_schedule": "results/q1_reordered156_53vehicle_candidate.csv",
+  "reordered": true,
+  "fixed_aircraft_count": 156,
+  "limit_minutes": 120,
+  "status": "FEASIBLE",
+  "objective": 716.0,
+  "bound": 543.0,
+  "source_schedule_sha256": "173780d063f9b82445d0fc68fdf575042b904f949552ab403db65e7d28385766",
+  "provenance_note": "resource vector and validation correspond to source_schedule above"
+}

@@ -44,7 +44,9 @@ def parse_skill_options(data: dict) -> dict[str, list[tuple[str, int, float]]]:
     options: dict[str, list[tuple[str, int, float]]] = defaultdict(list)
     name_to_group = SKILL_TO_GROUP
     for row in data["skills"]:
-        home = f"M{int(row[0])}"
+        # The appendix row number is a display index. The personnel group is
+        # identified by the first-skill name, for example 电源空调 -> M7.
+        home = name_to_group[row[1]]
         options[home].append((home, 1, 1.0))
         for level, text, factor in ((2, row[2], 0.8), (3, row[3], 0.4)):
             for name in text.split("、"):
@@ -429,9 +431,9 @@ class Q2Model:
 
 def run_case(a: int, b: int, data: dict, time_limit: float, workers: int,
              baseline: dict | None = None, order: str = "vehicles",
-             refinement_time_limit: float | None = None):
+             refinement_time_limit: float | None = None, model_factory=Q2Model):
     stage_results = []
-    model = Q2Model(a, b, data)
+    model = model_factory(a, b, data)
     if baseline:
         model.add_json_hints(baseline)
     first, second = ("vehicles", "people") if order == "vehicles" else ("people", "vehicles")
@@ -468,14 +470,16 @@ def run_case(a: int, b: int, data: dict, time_limit: float, workers: int,
     model.set_objective("fairness")
     solver, status = model.solve(time_limit, workers)
     stage_results.append({"stage": "fairness", "status": solver.StatusName(status),
-                          "objective": solver.ObjectiveValue(), "best_bound": solver.BestObjectiveBound()})
+                          "objective": solver.ObjectiveValue() if status in (cp_model.FEASIBLE, cp_model.OPTIMAL) else None,
+                          "best_bound": solver.BestObjectiveBound()})
     if status not in (cp_model.FEASIBLE, cp_model.OPTIMAL):
         return model.extract(previous_solver, previous_status, stage_results)
     model.add_hints(solver)
     refinement_limit = time_limit if refinement_time_limit is None else refinement_time_limit
     refined_solver, refined_status = model.solve(refinement_limit, workers)
     stage_results.append({"stage": "fairness_refinement", "status": refined_solver.StatusName(refined_status),
-                          "objective": refined_solver.ObjectiveValue(), "best_bound": refined_solver.BestObjectiveBound(),
+                          "objective": refined_solver.ObjectiveValue() if refined_status in (cp_model.FEASIBLE, cp_model.OPTIMAL) else None,
+                          "best_bound": refined_solver.BestObjectiveBound(),
                           "time_limit_s": refinement_limit})
     if refined_status in (cp_model.FEASIBLE, cp_model.OPTIMAL):
         return model.extract(refined_solver, refined_status, stage_results)
@@ -508,8 +512,10 @@ def main():
                                     "refinement_time_limit_s": args.refinement_time_limit or args.time_limit,
                                     "workers": args.workers, "random_seed": 20261121,
                                     "scale": SCALE}
-    result["selected_final_stage"] = "fairness_refinement"
-    result["stage_note"] = "前两阶段按人数优先，再固定人车数；最终采用内置fairness_refinement返回的排程。"
+    successful_stages = [row["stage"] for row in result["stage_results"]
+                         if row["status"] in ("FEASIBLE", "OPTIMAL")]
+    result["selected_final_stage"] = successful_stages[-1] if successful_stages else None
+    result["optimization_order"] = args.order
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in result.items() if k not in ("operations", "batch_operations", "pairable_overlaps")},

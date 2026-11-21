@@ -1,0 +1,6 @@
+{
+  "status": "INFEASIBLE",
+  "scope": "fixed operation times and staff groups; each shared service contains at most two tasks",
+  "services": [],
+  "schedule_sha256": "fc5b122734a5fbfd4a08e162f45093d5fce6f1d0cbf5e064cc130261c07d73cc"
+}

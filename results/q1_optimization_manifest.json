@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-21T11:08:26.042032+00:00",
+  "random_seed": 42,
+  "input_files": [
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/data/新2026C.docx",
+      "sha256": "088ad6c553f3e19b7cf6c29eb3477e0a2b237b2047ecf8d1f7daa3bd2a3a0687",
+      "bytes": 150809
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/results/q1_source_tables.json",
+      "sha256": "4b10def9fece65fa09653fc7ee53efba1575b9dd50d98ed840b55b7a747c2d62",
+      "bytes": 5257
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题1_优化模型.py",
+      "sha256": "350c8ab7f127fab51a39f97a6df378e78913867333272f59d38249382f003997",
+      "bytes": 46488
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题1_配对补位.py",
+      "sha256": "95e0eb786bb04b561b471bfda18b72a7b82a848ab07ebd3f89e20ee19e841e92",
+      "bytes": 10039
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/验证第一问排程.py",
+      "sha256": "55f87aad00c44f8dd7b8d7ae3edc14a02eebab354db1c079abe2c77755bc7aac",
+      "bytes": 12158
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/results/q1_reordered156_51vehicle_candidate.csv",
+      "sha256": "928418b2ac611d0894988b1afff3efa1f1cc90d7e3a9561f8b38c79f5ba77f6f",
+      "bytes": 61921
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/results/q1_reordered156_51vehicle_candidate_resources.json",
+      "sha256": "8946238a5476283a0403b09af0c44086408468a651c043744b78b41e9418032e",
+      "bytes": 915
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/results/h810itx_returns/round3/reordered52.csv",
+      "sha256": "e1dd30d66a962bf356f2a4ee7d0913c9b72887c5b0d93c710333f32257a2519a",
+      "bytes": 20177
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/results/h810itx_returns/peer_flow/fixed48_preset.csv",
+      "sha256": "7f5f2269334390d730f97aff9c20e8d92106a84acbfee43a33b337d474651802",
+      "bytes": 18834
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.13",
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.39",
+    "dependencies": {
+      "ortools": "9.15.6755",
+      "pandas": "3.0.5",
+      "matplotlib": "3.11.0"
+    }
+  },
+  "key_parameters": {
+    "q1_best_aircraft": 156,
+    "q1_best_horizon_min": 120,
+    "q1_best_added_vehicles": 51,
+    "q1_best_added_people": 2,
+    "q1_100min_reordered_feasible_aircraft": 52,
+    "q1_unresolved_vehicle_cap": 50,
+    "q1_unresolved_vehicle_cap_status": "UNKNOWN"
+  },
+  "reproduce_command": "python '验证第一问排程.py' --flow reordered --b-final --aircraft 156 --horizon 120 results/q1_reordered156_51vehicle_candidate.csv --resources results/q1_reordered156_51vehicle_candidate_resources.json"
+}

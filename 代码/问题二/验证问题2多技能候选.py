@@ -22,11 +22,12 @@ SKILL_TO_GROUP = {v: k for k, v in GROUP_TO_SKILL.items()}
 def skill_factor(data, home, required, level):
     if level == 1 and home == required:
         return 1.0
-    rows = {f"M{int(r[0])}": r for r in data["skills"]}
+    rows = {r[1]: r for r in data["skills"]}
+    home_row = rows[GROUP_TO_SKILL[home]]
     name = GROUP_TO_SKILL[required]
-    if level == 2 and name in rows[home][2].split("、"):
+    if level == 2 and name in home_row[2].split("、"):
         return 0.8
-    if level == 3 and name in rows[home][3].split("、"):
+    if level == 3 and name in home_row[3].split("、"):
         return 0.4
     return None
 
@@ -64,6 +65,7 @@ def main():
         "tow": (10, "M5", "Z1", 1), "oil": (10, "M2", "Z7", 1),
     }
     ops = {}
+    rows_by_key = {(r["aircraft"], r["operation"]): r for r in res.get("operations", [])}
     events = defaultdict(list)
     def use(key, start, end, demand):
         events[key].append((start, demand)); events[key].append((end, -demand))
@@ -89,7 +91,17 @@ def main():
         if start < -1e-6 or end > 120 + 1e-6 or end < start:
             errors.append(f"{key}: 时限错误")
         pairable = name in ("power_a", "aircon_a", "power_b", "aircon_b")
-        if row.get("mode") != ("double_slot" if pairable else "single"):
+        mode = row.get("mode")
+        partner = None
+        if mode == "synchronous_pair" and pairable:
+            other = rows_by_key.get((row.get("pair_with"), name))
+            fields = ("start_min", "end_min", "origin", "group", "skill_level", "type", "vehicle")
+            if (other is None or other is row or other.get("pair_with") != i
+                    or other.get("mode") != mode or any(other[f] != row[f] for f in fields)):
+                errors.append(f"{key}: 同步配对记录不一致")
+            else:
+                partner = other["aircraft"]
+        elif mode not in (("single", "double_slot") if pairable else ("single",)):
             errors.append(f"{key}: 双槽标识错误")
         if row.get("vehicle") != vehicle or row.get("required_group") != required:
             errors.append(f"{key}: 功能包属性错误")
@@ -97,10 +109,9 @@ def main():
             errors.append(f"{key}: 人数配置错误")
         if side not in ("M", "N") or home not in data["airport_resources"].get(side, {}).get("people", {}):
             errors.append(f"{key}: 来源或人员组错误")
-        person_demand = 1 if pairable else 2 * people
-        vehicle_demand = 1 if pairable else 2
-        use(("people", side, home), start, end, person_demand)
-        use(("vehicle", vehicle), start, end, vehicle_demand)
+        if partner is None or i < partner:
+            use(("people", side, home), start, end, 1 if mode == "double_slot" else 2 * people)
+            use(("vehicle", vehicle), start, end, 1 if mode == "double_slot" else 2)
         ops[key] = row
 
     for i in range(n):

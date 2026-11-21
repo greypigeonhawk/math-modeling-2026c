@@ -1,0 +1,126 @@
+{
+  "python": "3.13.13",
+  "ortools": "9.15.6755",
+  "cases": [
+    {
+      "B": 16,
+      "result": "results/q2_corrected_b16.json",
+      "result_sha256": "fc5b122734a5fbfd4a08e162f45093d5fce6f1d0cbf5e064cc130261c07d73cc",
+      "hint_sha256": "ad71bce791fbf5d3b456d0997a4731a1ade99ddc9f2bddfc03883fae9f888059",
+      "people": 7,
+      "vehicles": 7,
+      "group_load_range_percentage_points": 0.29,
+      "selected_final_stage": "fairness_refinement",
+      "stage_results": [
+        {
+          "stage": "people",
+          "status": "FEASIBLE",
+          "objective": 7,
+          "best_bound": 1.0
+        },
+        {
+          "stage": "vehicles",
+          "status": "FEASIBLE",
+          "objective": 7,
+          "best_bound": 1.0
+        },
+        {
+          "stage": "fairness",
+          "status": "FEASIBLE",
+          "objective": 35.0,
+          "best_bound": 0.0
+        },
+        {
+          "stage": "fairness_refinement",
+          "status": "FEASIBLE",
+          "objective": 29.0,
+          "best_bound": 0.0,
+          "time_limit_s": 8.0
+        }
+      ],
+      "verification": "PASS",
+      "solve_command": "python '问题2_多技能双容量候选.py' --b 16 --time-limit 12 --refinement-time-limit 8 --workers 2 --baseline results/q2_b16_crew_hint.json --order people --output results/q2_corrected_b16.json",
+      "verify_command": "python '验证问题2多技能候选.py' results/q2_corrected_b16.json"
+    },
+    {
+      "B": 24,
+      "result": "results/q2_corrected_b24.json",
+      "result_sha256": "1b3398560ce2d50bf246abec887acb893599652d17eb2c90b482cd2538c62c1c",
+      "hint_sha256": "8e46a247d15e928b335380d82ddfa960a07e9185268ff63199ed51ec5d7dd7fc",
+      "people": 12,
+      "vehicles": 22,
+      "group_load_range_percentage_points": 0.16999999999999998,
+      "selected_final_stage": "fairness",
+      "stage_results": [
+        {
+          "stage": "people",
+          "status": "FEASIBLE",
+          "objective": 12,
+          "best_bound": 1.0
+        },
+        {
+          "stage": "vehicles",
+          "status": "FEASIBLE",
+          "objective": 22,
+          "best_bound": 2.0
+        },
+        {
+          "stage": "fairness",
+          "status": "FEASIBLE",
+          "objective": 17.0,
+          "best_bound": 0.0
+        },
+        {
+          "stage": "fairness_refinement",
+          "status": "UNKNOWN",
+          "objective": null,
+          "best_bound": -10000.0,
+          "time_limit_s": 8.0
+        }
+      ],
+      "verification": "PASS",
+      "solve_command": "python '问题2_多技能双容量候选.py' --b 24 --time-limit 16 --refinement-time-limit 8 --workers 2 --baseline results/q2_b24_crew_hint.json --order people --output results/q2_corrected_b24.json",
+      "verify_command": "python '验证问题2多技能候选.py' results/q2_corrected_b24.json"
+    },
+    {
+      "B": 30,
+      "result": "results/q2_corrected_b30.json",
+      "result_sha256": "af77dacfa6c2d090fdc1acd46782d283dae8f7580c8182fd29823361e3b54872",
+      "hint_sha256": "5f2b28c2632aff737515001d1746584bc9d08dc7801004d09275319d3ff661cb",
+      "people": 22,
+      "vehicles": 25,
+      "group_load_range_percentage_points": 0.8099999999999999,
+      "selected_final_stage": "fairness",
+      "stage_results": [
+        {
+          "stage": "people",
+          "status": "FEASIBLE",
+          "objective": 22,
+          "best_bound": 1.0
+        },
+        {
+          "stage": "vehicles",
+          "status": "FEASIBLE",
+          "objective": 25,
+          "best_bound": 4.0
+        },
+        {
+          "stage": "fairness",
+          "status": "FEASIBLE",
+          "objective": 81.0,
+          "best_bound": 0.0
+        },
+        {
+          "stage": "fairness_refinement",
+          "status": "UNKNOWN",
+          "objective": null,
+          "best_bound": 0.0,
+          "time_limit_s": 8.0
+        }
+      ],
+      "verification": "PASS",
+      "solve_command": "python '问题2_多技能双容量候选.py' --b 30 --time-limit 16 --refinement-time-limit 8 --workers 2 --baseline results/q2_b30_crew_hint.json --order people --output results/q2_corrected_b30.json",
+      "verify_command": "python '验证问题2多技能候选.py' results/q2_corrected_b30.json"
+    }
+  ]
+}

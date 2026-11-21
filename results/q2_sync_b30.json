@@ -1,0 +1,24 @@
+{
+  "status": "UNKNOWN",
+  "complete_problem2": false,
+  "scope": "same-type synchronous power/aircon pairs with one shared vehicle and operator",
+  "aircraft_a": 32,
+  "aircraft_b": 30,
+  "stage_results": [],
+  "dispatch_people": {},
+  "dispatch_vehicles": {},
+  "group_workload_person_minutes": {},
+  "group_utilization_thousandths": {},
+  "group_utilization_range_thousandths": null,
+  "operations": [],
+  "batch_operations": [],
+  "source_sha256": "088ad6c553f3e19b7cf6c29eb3477e0a2b237b2047ecf8d1f7daa3bd2a3a0687",
+  "normalized_input_sha256": "0e303279b5947c23eb6491354a83ba778ee72c0edd9a74abacbc32c22138e569",
+  "baseline_sha256": "af77dacfa6c2d090fdc1acd46782d283dae8f7580c8182fd29823361e3b54872",
+  "solver_parameters": {
+    "seconds_per_stage": 36.0,
+    "workers": 2,
+    "random_seed": 20261121,
+    "order": "people"
+  }
+}

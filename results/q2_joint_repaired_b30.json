@@ -1,0 +1,6 @@
+{
+  "status": "UNKNOWN",
+  "scope": "fixed operation times and staff groups; each shared service contains at most two tasks",
+  "services": [],
+  "schedule_sha256": "af77dacfa6c2d090fdc1acd46782d283dae8f7580c8182fd29823361e3b54872"
+}
