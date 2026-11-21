@@ -7,7 +7,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 
-ROOT=Path(__file__).resolve().parents[2]s[2]
+ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'results/三问详细材料/图表'
 OUT.mkdir(parents=True,exist_ok=True)
 plt.rcParams.update({'font.sans-serif':['Noto Sans CJK SC','DejaVu Sans'], 'axes.unicode_minus':False,'font.size':10})
@@ -25,7 +25,7 @@ def q1():
 
 
 def q2():
-    names=['q2_joint_repaired_b16','q2_sync_joint_b24','q2_joint_legacy_b30']
+    names=['q2_tenth_joint_b16','q2_tenth_joint_b24','q2_joint_legacy_b30']
     ds=[json.loads((ROOT/'results'/f'{n}.json').read_text()) for n in names]
     labels=['32A+16B','32A+24B','32A+30B']; x=np.arange(3)
     fig,ax=plt.subplots(figsize=(6.5,3));
@@ -36,7 +36,7 @@ def q2():
 
 
 def q3():
-    p=ROOT/'results/问题3_迭代版/场景1/批次与伞勤点.csv'
+    p=ROOT/'results/问题3_扩大搜索版/场景1/批次与伞勤点.csv'
     with p.open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))[:54]
     fig,ax=plt.subplots(figsize=(7,2.6));colors={'F2':'#cf8b40','F3':'#245575','F4':'#69a39e'}
     for r in rows:

@@ -1,0 +1,4244 @@
+{
+  "status": "PASS",
+  "rounds": [
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 0,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 20,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 10,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 20,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 1,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 9
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 19
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 20,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 2,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 19,
+            "OPTIMAL": 11
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 10,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 9
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 3,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 9
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 19
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 20,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 4,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 9
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 19
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 20,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 5,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 9
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 19
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 20,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 6,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 9
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 19
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 20,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 7,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 9
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 19
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 20,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 8,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 20,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 19
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 9
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "limit": 2,
+      "seed": 9,
+      "visited_states": 663376,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 9
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 19
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 20,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 19
+          }
+        }
+      ]
+    },
+    {
+      "window": 4,
+      "limit": 2,
+      "seed": 0,
+      "visited_states": 33012,
+      "rotation": "unreachable"
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 0,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 20,
+            "OPTIMAL": 11
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 10,
+            "OPTIMAL": 21
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 1,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 2,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 3,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 4,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 5,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 6,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 7,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 8,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 5,
+      "limit": 3,
+      "seed": 9,
+      "visited_states": 696487,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 0,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 17,
+            "OPTIMAL": 14
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 7,
+            "OPTIMAL": 24
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 1,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 15,
+            "OPTIMAL": 16
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 5,
+            "OPTIMAL": 26
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 2,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 19,
+            "OPTIMAL": 12
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 9,
+            "OPTIMAL": 22
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 3,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 19,
+            "OPTIMAL": 12
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 9,
+            "OPTIMAL": 22
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 4,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 16,
+            "OPTIMAL": 15
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 6,
+            "OPTIMAL": 25
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 5,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 16,
+            "OPTIMAL": 15
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 6,
+            "OPTIMAL": 25
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 6,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 15,
+            "OPTIMAL": 16
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 5,
+            "OPTIMAL": 26
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 7,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 18,
+            "OPTIMAL": 13
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 8,
+            "OPTIMAL": 23
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 8,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 14,
+            "OPTIMAL": 17
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 4,
+            "OPTIMAL": 27
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 6,
+      "limit": 3,
+      "seed": 9,
+      "visited_states": 631741,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 18,
+            "OPTIMAL": 13
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 8,
+            "OPTIMAL": 23
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 0,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 20,
+            "OPTIMAL": 11
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 28,
+            "OPTIMAL": 3
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 10,
+            "OPTIMAL": 21
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 18,
+            "OPTIMAL": 13
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 8,
+            "OPTIMAL": 23
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 1,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 1,
+            "OPTIMAL": 30
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 2,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 1,
+            "OPTIMAL": 30
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 3,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 1,
+            "OPTIMAL": 30
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 4,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 1,
+            "OPTIMAL": 30
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 5,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 1,
+            "OPTIMAL": 30
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 6,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 7,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 8,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 1,
+            "OPTIMAL": 30
+          }
+        }
+      ]
+    },
+    {
+      "window": 7,
+      "limit": 4,
+      "seed": 9,
+      "visited_states": 1828661,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 0,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 17,
+            "OPTIMAL": 14
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 27,
+            "OPTIMAL": 4
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 7,
+            "OPTIMAL": 24
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 17,
+            "OPTIMAL": 14
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 7,
+            "OPTIMAL": 24
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 1,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 17,
+            "OPTIMAL": 14
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 7,
+            "OPTIMAL": 24
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 2,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 18,
+            "OPTIMAL": 13
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 9,
+            "INFEASIBLE": 22
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 8,
+            "OPTIMAL": 23
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 19,
+            "INFEASIBLE": 12
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 29,
+            "INFEASIBLE": 2
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 3,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 17,
+            "OPTIMAL": 14
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 7,
+            "OPTIMAL": 24
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 4,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 16,
+            "OPTIMAL": 15
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 21,
+            "OPTIMAL": 10
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 6,
+            "OPTIMAL": 25
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 11,
+            "OPTIMAL": 20
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 1,
+            "OPTIMAL": 30
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 5,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 19,
+            "OPTIMAL": 12
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 22,
+            "OPTIMAL": 9
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 9,
+            "OPTIMAL": 22
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 12,
+            "OPTIMAL": 19
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 2,
+            "OPTIMAL": 29
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 6,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 16,
+            "OPTIMAL": 15
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 6,
+            "OPTIMAL": 25
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 7,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 15,
+            "OPTIMAL": 16
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 10,
+            "INFEASIBLE": 21
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 5,
+            "OPTIMAL": 26
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 20,
+            "INFEASIBLE": 11
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 30,
+            "INFEASIBLE": 1
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 8,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 18,
+            "OPTIMAL": 13
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 8,
+            "OPTIMAL": 23
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    },
+    {
+      "window": 8,
+      "limit": 4,
+      "seed": 9,
+      "visited_states": 1871534,
+      "rotation": "tested",
+      "configurations": [
+        {
+          "Z2": [
+            7,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 17,
+            "OPTIMAL": 14
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            4
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        },
+        {
+          "Z2": [
+            7,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "INFEASIBLE": 7,
+            "OPTIMAL": 24
+          }
+        },
+        {
+          "Z2": [
+            8,
+            4,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 21,
+            "INFEASIBLE": 10
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 57,
+          "block_statuses": {
+            "OPTIMAL": 31
+          }
+        },
+        {
+          "Z2": [
+            8,
+            5,
+            5
+          ],
+          "max_a": 56,
+          "block_statuses": {
+            "OPTIMAL": 11,
+            "INFEASIBLE": 20
+          }
+        }
+      ]
+    }
+  ],
+  "unique_rotations": 50,
+  "unique_station_block_models": 3225,
+  "configuration": [
+    8,
+    5,
+    5
+  ],
+  "objective": [
+    18,
+    57
+  ],
+  "rotation_origin": [
+    3,
+    2,
+    0,
+    19
+  ],
+  "scenarios": {
+    "场景1": {
+      "场景": "机场完好",
+      "波次": 45,
+      "批次": 540,
+      "保障架次": 4320,
+      "逐机工序记录": 30780,
+      "休息次数": 29,
+      "跨跑道调动": 0,
+      "完工分钟": 9237.0,
+      "解析下界分钟": 9237,
+      "完工差距分钟": 0.0,
+      "末架飞行返回上空分钟": 9357.0,
+      "最小批间距": 10.0,
+      "最小机间距": 1.0,
+      "A机最长保障": 57.0,
+      "B机最长保障": 73.0,
+      "最长保障": 73.0,
+      "最短上空等待": 11.0,
+      "最长上空等待": 43.0,
+      "休息后最小余量": 86.0,
+      "各站批次数": {
+        "F2": 180,
+        "F3": 186,
+        "F4": 174
+      },
+      "停机峰值": {
+        "F2/A": 12,
+        "F2/B": 6,
+        "F2/合计": 16,
+        "F3/A": 13,
+        "F3/B": 8,
+        "F3/合计": 19,
+        "F4/A": 12,
+        "F4/B": 6,
+        "F4/合计": 16
+      },
+      "车人峰值": {
+        "F2/M1": 10,
+        "F2/M4": 2,
+        "F2/M5": 1,
+        "F2/M6": 5,
+        "F2/M7": 10,
+        "F2/M8": 6,
+        "F2/Z1": 1,
+        "F2/Z2": 5,
+        "F2/Z3": 3,
+        "F2/Z4": 3,
+        "F2/Z5": 5,
+        "F2/Z6": 5,
+        "F2/Z8": 5,
+        "F2/Z9": 1,
+        "F3/M1": 16,
+        "F3/M4": 2,
+        "F3/M5": 1,
+        "F3/M6": 8,
+        "F3/M7": 16,
+        "F3/M8": 6,
+        "F3/Z1": 1,
+        "F3/Z2": 8,
+        "F3/Z3": 3,
+        "F3/Z4": 3,
+        "F3/Z5": 8,
+        "F3/Z6": 8,
+        "F3/Z8": 8,
+        "F3/Z9": 1,
+        "F4/M1": 10,
+        "F4/M4": 2,
+        "F4/M5": 1,
+        "F4/M6": 5,
+        "F4/M7": 10,
+        "F4/M8": 6,
+        "F4/Z1": 1,
+        "F4/Z2": 5,
+        "F4/Z3": 3,
+        "F4/Z4": 3,
+        "F4/Z5": 5,
+        "F4/Z6": 5,
+        "F4/Z8": 5,
+        "F4/Z9": 1
+      }
+    },
+    "场景2": {
+      "场景": "甲停机坪停用",
+      "波次": 45,
+      "批次": 540,
+      "保障架次": 4320,
+      "逐机工序记录": 30780,
+      "休息次数": 29,
+      "跨跑道调动": 0,
+      "完工分钟": 9237.0,
+      "解析下界分钟": 9237,
+      "完工差距分钟": 0.0,
+      "末架飞行返回上空分钟": 9357.0,
+      "最小批间距": 10.0,
+      "最小机间距": 1.0,
+      "A机最长保障": 57.0,
+      "B机最长保障": 73.0,
+      "最长保障": 73.0,
+      "最短上空等待": 11.0,
+      "最长上空等待": 43.0,
+      "休息后最小余量": 86.0,
+      "各站批次数": {
+        "F2": 180,
+        "F3": 186,
+        "F4": 174
+      },
+      "停机峰值": {
+        "F2/A": 12,
+        "F2/B": 6,
+        "F2/合计": 16,
+        "F3/A": 13,
+        "F3/B": 8,
+        "F3/合计": 19,
+        "F4/A": 12,
+        "F4/B": 6,
+        "F4/合计": 16
+      },
+      "车人峰值": {
+        "F2/M1": 10,
+        "F2/M4": 2,
+        "F2/M5": 1,
+        "F2/M6": 5,
+        "F2/M7": 10,
+        "F2/M8": 6,
+        "F2/Z1": 1,
+        "F2/Z2": 5,
+        "F2/Z3": 3,
+        "F2/Z4": 3,
+        "F2/Z5": 5,
+        "F2/Z6": 5,
+        "F2/Z8": 5,
+        "F2/Z9": 1,
+        "F3/M1": 16,
+        "F3/M4": 2,
+        "F3/M5": 1,
+        "F3/M6": 8,
+        "F3/M7": 16,
+        "F3/M8": 6,
+        "F3/Z1": 1,
+        "F3/Z2": 8,
+        "F3/Z3": 3,
+        "F3/Z4": 3,
+        "F3/Z5": 8,
+        "F3/Z6": 8,
+        "F3/Z8": 8,
+        "F3/Z9": 1,
+        "F4/M1": 10,
+        "F4/M4": 2,
+        "F4/M5": 1,
+        "F4/M6": 5,
+        "F4/M7": 10,
+        "F4/M8": 6,
+        "F4/Z1": 1,
+        "F4/Z2": 5,
+        "F4/Z3": 3,
+        "F4/Z4": 3,
+        "F4/Z5": 5,
+        "F4/Z6": 5,
+        "F4/Z8": 5,
+        "F4/Z9": 1
+      }
+    },
+    "场景3": {
+      "场景": "乙跑道及地勤失能",
+      "波次": 45,
+      "批次": 540,
+      "保障架次": 4320,
+      "逐机工序记录": 30780,
+      "休息次数": 29,
+      "跨跑道调动": 0,
+      "完工分钟": 9237.0,
+      "解析下界分钟": 9237,
+      "完工差距分钟": 0.0,
+      "末架飞行返回上空分钟": 9357.0,
+      "最小批间距": 10.0,
+      "最小机间距": 1.0,
+      "A机最长保障": 57.0,
+      "B机最长保障": 73.0,
+      "最长保障": 73.0,
+      "最短上空等待": 11.0,
+      "最长上空等待": 43.0,
+      "休息后最小余量": 86.0,
+      "各站批次数": {
+        "F1": 180,
+        "F3": 186,
+        "F4": 174
+      },
+      "停机峰值": {
+        "F1/A": 12,
+        "F1/B": 6,
+        "F1/合计": 16,
+        "F3/A": 13,
+        "F3/B": 8,
+        "F3/合计": 19,
+        "F4/A": 12,
+        "F4/B": 6,
+        "F4/合计": 16
+      },
+      "车人峰值": {
+        "F1/M1": 10,
+        "F1/M4": 2,
+        "F1/M5": 1,
+        "F1/M6": 5,
+        "F1/M7": 10,
+        "F1/M8": 6,
+        "F1/Z1": 1,
+        "F1/Z2": 5,
+        "F1/Z3": 3,
+        "F1/Z4": 3,
+        "F1/Z5": 5,
+        "F1/Z6": 5,
+        "F1/Z8": 5,
+        "F1/Z9": 1,
+        "F3/M1": 16,
+        "F3/M4": 2,
+        "F3/M5": 1,
+        "F3/M6": 8,
+        "F3/M7": 16,
+        "F3/M8": 6,
+        "F3/Z1": 1,
+        "F3/Z2": 8,
+        "F3/Z3": 3,
+        "F3/Z4": 3,
+        "F3/Z5": 8,
+        "F3/Z6": 8,
+        "F3/Z8": 8,
+        "F3/Z9": 1,
+        "F4/M1": 10,
+        "F4/M4": 2,
+        "F4/M5": 1,
+        "F4/M6": 5,
+        "F4/M7": 10,
+        "F4/M8": 6,
+        "F4/Z1": 1,
+        "F4/Z2": 5,
+        "F4/Z3": 3,
+        "F4/Z4": 3,
+        "F4/Z5": 5,
+        "F4/Z6": 5,
+        "F4/Z8": 5,
+        "F4/Z9": 1
+      }
+    }
+  },
+  "initial_rotation_origin": [
+    3,
+    2,
+    0
+  ],
+  "buffer_refinement": {
+    "rounds": [
+      {
+        "cooldown": 22,
+        "window": 3,
+        "limit": 2,
+        "seed": 0,
+        "visited_states": 30113,
+        "status": "unreachable"
+      },
+      {
+        "cooldown": 22,
+        "window": 5,
+        "limit": 3,
+        "seed": 0,
+        "visited_states": 81129,
+        "status": "unreachable"
+      },
+      {
+        "cooldown": 22,
+        "window": 7,
+        "limit": 4,
+        "seed": 0,
+        "visited_states": 263923,
+        "status": "unreachable"
+      },
+      {
+        "cooldown": 21,
+        "window": 3,
+        "limit": 2,
+        "seed": 0,
+        "visited_states": 31285,
+        "status": "unreachable"
+      },
+      {
+        "cooldown": 21,
+        "window": 5,
+        "limit": 3,
+        "seed": 0,
+        "visited_states": 81631,
+        "status": "unreachable"
+      },
+      {
+        "cooldown": 21,
+        "window": 7,
+        "limit": 4,
+        "seed": 0,
+        "visited_states": 264149,
+        "status": "unreachable"
+      },
+      {
+        "cooldown": 20,
+        "window": 3,
+        "limit": 2,
+        "seed": 0,
+        "visited_states": 33108,
+        "status": "unreachable"
+      },
+      {
+        "cooldown": 20,
+        "window": 5,
+        "limit": 3,
+        "seed": 0,
+        "visited_states": 82226,
+        "status": "unreachable"
+      },
+      {
+        "cooldown": 20,
+        "window": 7,
+        "limit": 4,
+        "seed": 0,
+        "visited_states": 264749,
+        "status": "unreachable"
+      },
+      {
+        "cooldown": 19,
+        "window": 3,
+        "limit": 2,
+        "seed": 0,
+        "visited_states": 51437,
+        "block_statuses": {
+          "OPTIMAL": 31
+        },
+        "status": "candidate",
+        "tighter_A": [
+          {
+            "min": 56,
+            "statuses": {
+              "OPTIMAL": 11,
+              "INFEASIBLE": 20
+            }
+          }
+        ]
+      }
+    ],
+    "unique_station_block_models": 12
+  }
+}

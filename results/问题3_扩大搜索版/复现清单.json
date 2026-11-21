@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-21T13:04:42.289630+00:00",
+  "random_seed": 0,
+  "input_files": [
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/data/新2026C.docx",
+      "sha256": "088ad6c553f3e19b7cf6c29eb3477e0a2b237b2047ecf8d1f7daa3bd2a3a0687",
+      "bytes": 150809
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题3_扩大搜索.py",
+      "sha256": "46e5fe0fa820c4eb5408d56124202edf4e308fdb75daba19292a80218e8a6c64",
+      "bytes": 12401
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题3_低峰值排程.py",
+      "sha256": "c5ac1952824fd27f46ba51cad6bd62fc7a37a21db541a12b328a3e257bf3dd79",
+      "bytes": 4115
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题3_排程.py",
+      "sha256": "4cdd8a912bda17fb2edb6363e024ac5d161f796511bd39fb3d76ce023924d1db",
+      "bytes": 8084
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题3_复核.py",
+      "sha256": "74cdd0ec03fbd1ec76564bd49cadb0d6cfcd984eed5f7dc3798aa59bc71c7e88",
+      "bytes": 17037
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题3_迭代.py",
+      "sha256": "5ce84d6e7384fbec534cd8f11c0d30d8a1c0d0bfb1e4e0bb316265078e3d6f48",
+      "bytes": 8489
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/附件模版/附件2  C_Solution2-1.xlsx",
+      "sha256": "9141f4af0cbd86324ae71f1d1e15ed2bd730f0256d8fbf443bcdbdcab0cc94c4",
+      "bytes": 11760
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/附件模版/附件3  C_Solution2-2.xlsx",
+      "sha256": "579a24a48cf365d66468d931530f12e896a06cf1c7a52886f617d8b4bb2b1509",
+      "bytes": 11770
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.13",
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.39",
+    "dependencies": {
+      "ortools": "9.15.6755",
+      "openpyxl": "3.1.5",
+      "python-docx": "1.2.0"
+    }
+  },
+  "key_parameters": {
+    "waves": 45,
+    "rotation_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "workers": 1,
+    "seconds_per_model": 1
+  },
+  "reproduce_command": "python 问题3_扩大搜索.py --excel && python 问题3_扩大搜索.py --refine-buffer --excel"
+}
