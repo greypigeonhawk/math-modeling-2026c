@@ -35,6 +35,7 @@ def skill_factor(data, home, required, level):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("result", type=Path)
+    ap.add_argument("--time-quantum", type=float, default=None, help="时间网格（分钟），工序时长向上取整")
     args = ap.parse_args()
     raw = (ROOT / "results/q23_normalized.json").read_bytes()
     data = json.loads(raw)
@@ -86,7 +87,16 @@ def main():
         factor = skill_factor(data, home, required, level)
         cross = 1.0 if ((side == "M") == (plane == "A")) else 0.9
         expected = base / (cross * factor) if factor is not None and side in ("M", "N") else None
-        if expected is None or abs((end - start) - expected) > 1.0 / SCALE + 1e-6:
+        actual_duration = end - start
+        if args.time_quantum is None:
+            duration_invalid = expected is None or abs(actual_duration - expected) > 1.0 / SCALE + 1e-6
+        else:
+            duration_invalid = (expected is None or args.time_quantum <= 0 or
+                                actual_duration + 1e-6 < expected or
+                                actual_duration - expected >= args.time_quantum + 1e-6 or
+                                abs(start / args.time_quantum - round(start / args.time_quantum)) > 1e-6 or
+                                abs(end / args.time_quantum - round(end / args.time_quantum)) > 1e-6)
+        if duration_invalid:
             errors.append(f"{key}: 技能/跨机型折减或时长错误")
         if start < -1e-6 or end > 120 + 1e-6 or end < start:
             errors.append(f"{key}: 时限错误")

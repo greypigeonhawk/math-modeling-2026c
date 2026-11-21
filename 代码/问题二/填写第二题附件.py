@@ -9,8 +9,8 @@ from 验证问题2实体证书 import verify
 
 ROOT = Path(__file__).resolve().parents[2]
 CASES = {
-    16: ('q2_corrected_b16', 'q2_joint_repaired_b16'),
-    24: ('q2_sync_b24', 'q2_sync_joint_b24'),
+    16: ('q2_tenth_b16', 'q2_tenth_joint_b16'),
+    24: ('q2_tenth_b24', 'q2_tenth_joint_b24'),
     30: ('q2_single_skill_b30_seed', 'q2_joint_legacy_b30'),
 }
 CODE = {'tow':'0102','power_a':'0203','aircon_a':'0204','oil':'0205',

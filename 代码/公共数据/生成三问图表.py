@@ -7,7 +7,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 
-ROOT=Path(__file__).resolve().parents[2]
+ROOT=Path(__file__).resolve().parents[2]s[2]
 OUT=ROOT/'results/三问详细材料/图表'
 OUT.mkdir(parents=True,exist_ok=True)
 plt.rcParams.update({'font.sans-serif':['Noto Sans CJK SC','DejaVu Sans'], 'axes.unicode_minus':False,'font.size':10})
