@@ -1,0 +1,5884 @@
+{
+  "status": "PASS",
+  "source_result": "results/q2_improved_b16_peoplefirst.json",
+  "scope": "聚合双槽排程的区间着色证书；车辆池和人员池独立着色，未证明重叠任务同车同人",
+  "errors": [],
+  "vehicle_assignments": {
+    "('operation', 0, 'tow')": [
+      [
+        "M",
+        "Z1",
+        1
+      ]
+    ],
+    "('operation', 1, 'tow')": [
+      [
+        "M",
+        "Z1",
+        2
+      ]
+    ],
+    "('operation', 2, 'tow')": [
+      [
+        "M",
+        "Z1",
+        3
+      ]
+    ],
+    "('operation', 3, 'tow')": [
+      [
+        "M",
+        "Z1",
+        4
+      ]
+    ],
+    "('operation', 4, 'tow')": [
+      [
+        "M",
+        "Z1",
+        5
+      ]
+    ],
+    "('operation', 15, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        1
+      ]
+    ],
+    "('operation', 9, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        2
+      ]
+    ],
+    "('operation', 39, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        3
+      ]
+    ],
+    "('operation', 43, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        4
+      ]
+    ],
+    "('operation', 45, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        5
+      ]
+    ],
+    "('operation', 47, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        6
+      ]
+    ],
+    "('operation', 14, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        7
+      ]
+    ],
+    "('operation', 19, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        8
+      ]
+    ],
+    "('operation', 21, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        9
+      ]
+    ],
+    "('operation', 42, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        10
+      ]
+    ],
+    "('operation', 35, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        11
+      ]
+    ],
+    "('operation', 44, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        12
+      ]
+    ],
+    "('operation', 46, 'fuel')": [
+      [
+        "N",
+        "Z2",
+        1
+      ]
+    ],
+    "('operation', 26, 'fuel')": [
+      [
+        "N",
+        "Z2",
+        2
+      ]
+    ],
+    "('operation', 0, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        1
+      ]
+    ],
+    "('operation', 17, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        2
+      ]
+    ],
+    "('operation', 25, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        7
+      ]
+    ],
+    "('operation', 23, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        8
+      ]
+    ],
+    "('operation', 41, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        9
+      ]
+    ],
+    "('operation', 37, 'fuel')": [
+      [
+        "N",
+        "Z2",
+        2
+      ]
+    ],
+    "('operation', 36, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        2
+      ]
+    ],
+    "('operation', 31, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        7
+      ]
+    ],
+    "('operation', 29, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        8
+      ]
+    ],
+    "('operation', 38, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        10
+      ]
+    ],
+    "('operation', 22, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        3
+      ]
+    ],
+    "('operation', 34, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        4
+      ]
+    ],
+    "('operation', 40, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        5
+      ]
+    ],
+    "('operation', 12, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        6
+      ]
+    ],
+    "('operation', 13, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        11
+      ]
+    ],
+    "('operation', 3, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        12
+      ]
+    ],
+    "('operation', 32, 'fuel')": [
+      [
+        "N",
+        "Z2",
+        1
+      ]
+    ],
+    "('operation', 33, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        1
+      ]
+    ],
+    "('operation', 18, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        7
+      ]
+    ],
+    "('operation', 11, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        3
+      ]
+    ],
+    "('operation', 4, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        6
+      ]
+    ],
+    "('operation', 5, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        8
+      ]
+    ],
+    "('operation', 30, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        9
+      ]
+    ],
+    "('operation', 24, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        11
+      ]
+    ],
+    "('operation', 8, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        12
+      ]
+    ],
+    "('operation', 10, 'fuel')": [
+      [
+        "N",
+        "Z2",
+        2
+      ]
+    ],
+    "('operation', 1, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        2
+      ]
+    ],
+    "('operation', 6, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        7
+      ]
+    ],
+    "('operation', 28, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        3
+      ]
+    ],
+    "('operation', 20, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        6
+      ]
+    ],
+    "('operation', 16, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        8
+      ]
+    ],
+    "('operation', 2, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        9
+      ]
+    ],
+    "('operation', 27, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        10
+      ]
+    ],
+    "('operation', 7, 'fuel')": [
+      [
+        "M",
+        "Z2",
+        11
+      ]
+    ],
+    "('operation', 19, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 21, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 26, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 42, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        3
+      ]
+    ],
+    "('operation', 23, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        4
+      ]
+    ],
+    "('operation', 17, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 43, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 35, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        3
+      ]
+    ],
+    "('operation', 46, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        4
+      ]
+    ],
+    "('operation', 39, 'oxygen')": [
+      [
+        "N",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 14, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 15, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 47, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        3
+      ]
+    ],
+    "('operation', 45, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 44, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 0, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 31, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 29, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        4
+      ]
+    ],
+    "('operation', 22, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 3, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        3
+      ]
+    ],
+    "('operation', 12, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        4
+      ]
+    ],
+    "('operation', 41, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 13, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 9, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        3
+      ]
+    ],
+    "('operation', 25, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 18, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 11, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 38, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 37, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        3
+      ]
+    ],
+    "('operation', 36, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        4
+      ]
+    ],
+    "('operation', 40, 'oxygen')": [
+      [
+        "N",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 30, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 34, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 32, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 33, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        3
+      ]
+    ],
+    "('operation', 4, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        4
+      ]
+    ],
+    "('operation', 8, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        3
+      ]
+    ],
+    "('operation', 24, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 5, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 6, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        4
+      ]
+    ],
+    "('operation', 10, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 28, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 1, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        3
+      ]
+    ],
+    "('operation', 2, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        4
+      ]
+    ],
+    "('operation', 7, 'oxygen')": [
+      [
+        "N",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 16, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 20, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        2
+      ]
+    ],
+    "('operation', 27, 'oxygen')": [
+      [
+        "M",
+        "Z3",
+        1
+      ]
+    ],
+    "('operation', 15, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 14, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 21, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 42, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 17, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        4
+      ]
+    ],
+    "('operation', 19, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 26, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 45, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        4
+      ]
+    ],
+    "('operation', 35, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 46, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        5
+      ]
+    ],
+    "('operation', 39, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 44, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 43, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 47, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 0, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 9, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 31, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 29, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        4
+      ]
+    ],
+    "('operation', 22, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 41, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 3, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 12, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        4
+      ]
+    ],
+    "('operation', 23, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 25, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 13, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        4
+      ]
+    ],
+    "('operation', 18, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 5, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 30, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 24, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 38, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        4
+      ]
+    ],
+    "('operation', 36, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 34, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 37, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 40, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        4
+      ]
+    ],
+    "('operation', 33, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        5
+      ]
+    ],
+    "('operation', 32, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 4, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 8, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 10, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 1, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 6, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 2, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 7, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        2
+      ]
+    ],
+    "('operation', 27, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        3
+      ]
+    ],
+    "('operation', 11, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        4
+      ]
+    ],
+    "('operation', 16, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        5
+      ]
+    ],
+    "('operation', 28, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        6
+      ]
+    ],
+    "('operation', 20, 'nitrogen')": [
+      [
+        "M",
+        "Z4",
+        1
+      ]
+    ],
+    "('operation', 15, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 19, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 20, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 23, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 24, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 26, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 27, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 28, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 44, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 45, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 35, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        6
+      ]
+    ],
+    "('operation', 43, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        6
+      ]
+    ],
+    "('operation', 32, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        7
+      ]
+    ],
+    "('operation', 33, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        7
+      ]
+    ],
+    "('operation', 34, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        8
+      ]
+    ],
+    "('operation', 40, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        8
+      ]
+    ],
+    "('operation', 42, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        9
+      ]
+    ],
+    "('operation', 46, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        9
+      ]
+    ],
+    "('operation', 47, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        10
+      ]
+    ],
+    "('operation', 39, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        10
+      ]
+    ],
+    "('operation', 3, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        11
+      ]
+    ],
+    "('operation', 0, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 14, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 17, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 21, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 29, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 4, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 9, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 10, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 31, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 13, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 16, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        6
+      ]
+    ],
+    "('operation', 1, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 12, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 25, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 41, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 2, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 22, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 38, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 11, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 18, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 30, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 6, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 7, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 8, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 37, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        6
+      ]
+    ],
+    "('operation', 5, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 36, 'power_a')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 14, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 15, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 42, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        6
+      ]
+    ],
+    "('operation', 21, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 26, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 31, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 43, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 9, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 46, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 45, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 39, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 12, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 13, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 18, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 23, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 25, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 17, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        6
+      ]
+    ],
+    "('operation', 35, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        6
+      ]
+    ],
+    "('operation', 47, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        7
+      ]
+    ],
+    "('operation', 41, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        7
+      ]
+    ],
+    "('operation', 3, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 4, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 44, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        8
+      ]
+    ],
+    "('operation', 10, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        8
+      ]
+    ],
+    "('operation', 2, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 29, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 30, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 6, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 7, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 20, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 28, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        4
+      ]
+    ],
+    "('operation', 40, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        6
+      ]
+    ],
+    "('operation', 36, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        6
+      ]
+    ],
+    "('operation', 37, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        7
+      ]
+    ],
+    "('operation', 33, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 5, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        3
+      ]
+    ],
+    "('operation', 32, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        7
+      ]
+    ],
+    "('operation', 34, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        8
+      ]
+    ],
+    "('operation', 19, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        9
+      ]
+    ],
+    "('operation', 22, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        9
+      ]
+    ],
+    "('operation', 38, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        10
+      ]
+    ],
+    "('operation', 0, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 1, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        1
+      ]
+    ],
+    "('operation', 11, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        2
+      ]
+    ],
+    "('operation', 16, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 24, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        5
+      ]
+    ],
+    "('operation', 27, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        10
+      ]
+    ],
+    "('operation', 8, 'power_b')": [
+      [
+        "M",
+        "Z5",
+        11
+      ]
+    ],
+    "('operation', 10, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 15, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 19, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 23, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 28, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 29, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 42, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 44, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 45, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 17, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 24, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        6
+      ]
+    ],
+    "('operation', 34, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        6
+      ]
+    ],
+    "('operation', 35, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        7
+      ]
+    ],
+    "('operation', 38, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        7
+      ]
+    ],
+    "('operation', 41, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        8
+      ]
+    ],
+    "('operation', 46, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        8
+      ]
+    ],
+    "('operation', 47, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        9
+      ]
+    ],
+    "('operation', 0, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        9
+      ]
+    ],
+    "('operation', 12, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 14, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 21, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 26, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 3, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 40, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 39, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 43, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 1, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 31, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        10
+      ]
+    ],
+    "('operation', 20, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        10
+      ]
+    ],
+    "('operation', 2, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 11, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 25, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 30, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 5, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 8, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 9, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        6
+      ]
+    ],
+    "('operation', 13, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 22, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 33, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        6
+      ]
+    ],
+    "('operation', 6, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 16, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 18, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 27, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 4, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 37, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 36, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 32, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 7, 'aircon_a')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 42, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 21, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 15, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 26, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 31, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 14, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 29, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 25, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 46, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 44, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 39, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 12, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 13, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 18, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 9, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        6
+      ]
+    ],
+    "('operation', 35, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        6
+      ]
+    ],
+    "('operation', 43, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 17, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 45, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        7
+      ]
+    ],
+    "('operation', 41, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 47, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 3, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        7
+      ]
+    ],
+    "('operation', 10, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        8
+      ]
+    ],
+    "('operation', 0, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 30, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 4, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 6, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 7, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        6
+      ]
+    ],
+    "('operation', 23, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 36, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 20, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 40, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 24, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        6
+      ]
+    ],
+    "('operation', 32, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        3
+      ]
+    ],
+    "('operation', 33, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        4
+      ]
+    ],
+    "('operation', 34, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        7
+      ]
+    ],
+    "('operation', 37, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        7
+      ]
+    ],
+    "('operation', 19, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        8
+      ]
+    ],
+    "('operation', 22, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        8
+      ]
+    ],
+    "('operation', 1, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 11, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        1
+      ]
+    ],
+    "('operation', 16, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        2
+      ]
+    ],
+    "('operation', 2, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        5
+      ]
+    ],
+    "('operation', 27, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        6
+      ]
+    ],
+    "('operation', 28, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        9
+      ]
+    ],
+    "('operation', 38, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        9
+      ]
+    ],
+    "('operation', 5, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        10
+      ]
+    ],
+    "('operation', 8, 'aircon_b')": [
+      [
+        "M",
+        "Z6",
+        10
+      ]
+    ],
+    "('operation', 8, 'oil')": [
+      [
+        "M",
+        "Z7",
+        1
+      ]
+    ],
+    "('operation', 6, 'oil')": [
+      [
+        "M",
+        "Z7",
+        1
+      ]
+    ],
+    "('operation', 0, 'oil')": [
+      [
+        "M",
+        "Z7",
+        1
+      ]
+    ],
+    "('operation', 5, 'oil')": [
+      [
+        "M",
+        "Z7",
+        1
+      ]
+    ],
+    "('operation', 7, 'oil')": [
+      [
+        "M",
+        "Z7",
+        1
+      ]
+    ],
+    "('operation', 42, 'meal')": [
+      [
+        "M",
+        "Z8",
+        1
+      ]
+    ],
+    "('operation', 43, 'meal')": [
+      [
+        "M",
+        "Z8",
+        2
+      ]
+    ],
+    "('operation', 46, 'meal')": [
+      [
+        "M",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 45, 'meal')": [
+      [
+        "M",
+        "Z8",
+        4
+      ]
+    ],
+    "('operation', 44, 'meal')": [
+      [
+        "M",
+        "Z8",
+        5
+      ]
+    ],
+    "('operation', 47, 'meal')": [
+      [
+        "M",
+        "Z8",
+        6
+      ]
+    ],
+    "('operation', 14, 'meal')": [
+      [
+        "M",
+        "Z8",
+        7
+      ]
+    ],
+    "('operation', 15, 'meal')": [
+      [
+        "M",
+        "Z8",
+        8
+      ]
+    ],
+    "('operation', 21, 'meal')": [
+      [
+        "M",
+        "Z8",
+        9
+      ]
+    ],
+    "('operation', 26, 'meal')": [
+      [
+        "M",
+        "Z8",
+        10
+      ]
+    ],
+    "('operation', 35, 'meal')": [
+      [
+        "N",
+        "Z8",
+        1
+      ]
+    ],
+    "('operation', 39, 'meal')": [
+      [
+        "N",
+        "Z8",
+        2
+      ]
+    ],
+    "('operation', 31, 'meal')": [
+      [
+        "N",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 29, 'meal')": [
+      [
+        "M",
+        "Z8",
+        7
+      ]
+    ],
+    "('operation', 41, 'meal')": [
+      [
+        "M",
+        "Z8",
+        8
+      ]
+    ],
+    "('operation', 9, 'meal')": [
+      [
+        "M",
+        "Z8",
+        9
+      ]
+    ],
+    "('operation', 3, 'meal')": [
+      [
+        "M",
+        "Z8",
+        10
+      ]
+    ],
+    "('operation', 25, 'meal')": [
+      [
+        "N",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 23, 'meal')": [
+      [
+        "M",
+        "Z8",
+        1
+      ]
+    ],
+    "('operation', 0, 'meal')": [
+      [
+        "M",
+        "Z8",
+        7
+      ]
+    ],
+    "('operation', 13, 'meal')": [
+      [
+        "M",
+        "Z8",
+        9
+      ]
+    ],
+    "('operation', 12, 'meal')": [
+      [
+        "N",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 18, 'meal')": [
+      [
+        "M",
+        "Z8",
+        1
+      ]
+    ],
+    "('operation', 38, 'meal')": [
+      [
+        "M",
+        "Z8",
+        10
+      ]
+    ],
+    "('operation', 40, 'meal')": [
+      [
+        "M",
+        "Z8",
+        2
+      ]
+    ],
+    "('operation', 30, 'meal')": [
+      [
+        "M",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 36, 'meal')": [
+      [
+        "M",
+        "Z8",
+        4
+      ]
+    ],
+    "('operation', 37, 'meal')": [
+      [
+        "M",
+        "Z8",
+        7
+      ]
+    ],
+    "('operation', 17, 'meal')": [
+      [
+        "M",
+        "Z8",
+        9
+      ]
+    ],
+    "('operation', 34, 'meal')": [
+      [
+        "M",
+        "Z8",
+        5
+      ]
+    ],
+    "('operation', 32, 'meal')": [
+      [
+        "N",
+        "Z8",
+        1
+      ]
+    ],
+    "('operation', 33, 'meal')": [
+      [
+        "N",
+        "Z8",
+        2
+      ]
+    ],
+    "('operation', 4, 'meal')": [
+      [
+        "M",
+        "Z8",
+        1
+      ]
+    ],
+    "('operation', 8, 'meal')": [
+      [
+        "M",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 10, 'meal')": [
+      [
+        "M",
+        "Z8",
+        9
+      ]
+    ],
+    "('operation', 2, 'meal')": [
+      [
+        "M",
+        "Z8",
+        6
+      ]
+    ],
+    "('operation', 6, 'meal')": [
+      [
+        "M",
+        "Z8",
+        8
+      ]
+    ],
+    "('operation', 7, 'meal')": [
+      [
+        "N",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 16, 'meal')": [
+      [
+        "M",
+        "Z8",
+        1
+      ]
+    ],
+    "('operation', 20, 'meal')": [
+      [
+        "M",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 1, 'meal')": [
+      [
+        "M",
+        "Z8",
+        9
+      ]
+    ],
+    "('operation', 28, 'meal')": [
+      [
+        "M",
+        "Z8",
+        6
+      ]
+    ],
+    "('operation', 27, 'meal')": [
+      [
+        "M",
+        "Z8",
+        8
+      ]
+    ],
+    "('operation', 11, 'meal')": [
+      [
+        "N",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 5, 'meal')": [
+      [
+        "M",
+        "Z8",
+        1
+      ]
+    ],
+    "('operation', 24, 'meal')": [
+      [
+        "M",
+        "Z8",
+        10
+      ]
+    ],
+    "('operation', 19, 'meal')": [
+      [
+        "M",
+        "Z8",
+        3
+      ]
+    ],
+    "('operation', 22, 'meal')": [
+      [
+        "M",
+        "Z8",
+        9
+      ]
+    ],
+    "('material_vehicle', 20)": [
+      [
+        "M",
+        "Z9",
+        1
+      ]
+    ],
+    "('material_vehicle', 40)": [
+      [
+        "N",
+        "Z9",
+        1
+      ]
+    ],
+    "('material_vehicle', 0)": [
+      [
+        "M",
+        "Z9",
+        1
+      ]
+    ],
+    "('parachute', 1)": [
+      [
+        "N",
+        "Z9",
+        1
+      ]
+    ],
+    "('parachute', 0)": [
+      [
+        "M",
+        "Z9",
+        1
+      ]
+    ]
+  },
+  "person_assignments": {
+    "('operation', 32, 'power_a')": [
+      [
+        "M",
+        "M1",
+        1
+      ]
+    ],
+    "('operation', 33, 'power_a')": [
+      [
+        "M",
+        "M1",
+        1
+      ]
+    ],
+    "('operation', 34, 'aircon_a')": [
+      [
+        "M",
+        "M1",
+        2
+      ]
+    ],
+    "('operation', 34, 'power_a')": [
+      [
+        "M",
+        "M1",
+        2
+      ]
+    ],
+    "('operation', 35, 'aircon_a')": [
+      [
+        "M",
+        "M1",
+        3
+      ]
+    ],
+    "('operation', 38, 'aircon_a')": [
+      [
+        "M",
+        "M1",
+        3
+      ]
+    ],
+    "('operation', 40, 'power_a')": [
+      [
+        "M",
+        "M1",
+        4
+      ]
+    ],
+    "('operation', 41, 'aircon_a')": [
+      [
+        "M",
+        "M1",
+        4
+      ]
+    ],
+    "('operation', 42, 'power_a')": [
+      [
+        "M",
+        "M1",
+        5
+      ]
+    ],
+    "('operation', 47, 'aircon_a')": [
+      [
+        "M",
+        "M1",
+        5
+      ]
+    ],
+    "('operation', 47, 'power_a')": [
+      [
+        "M",
+        "M1",
+        6
+      ]
+    ],
+    "('operation', 40, 'aircon_a')": [
+      [
+        "M",
+        "M1",
+        6
+      ]
+    ],
+    "('operation', 1, 'aircon_a')": [
+      [
+        "M",
+        "M1",
+        7
+      ]
+    ],
+    "('operation', 43, 'meal')": [
+      [
+        "M",
+        "M1",
+        1
+      ],
+      [
+        "M",
+        "M1",
+        2
+      ]
+    ],
+    "('operation', 46, 'meal')": [
+      [
+        "M",
+        "M1",
+        3
+      ],
+      [
+        "M",
+        "M1",
+        4
+      ]
+    ],
+    "('operation', 45, 'meal')": [
+      [
+        "M",
+        "M1",
+        5
+      ],
+      [
+        "M",
+        "M1",
+        6
+      ]
+    ],
+    "('operation', 37, 'aircon_a')": [
+      [
+        "M",
+        "M1",
+        7
+      ]
+    ],
+    "('operation', 37, 'power_a')": [
+      [
+        "M",
+        "M1",
+        7
+      ]
+    ],
+    "('operation', 44, 'meal')": [
+      [
+        "M",
+        "M1",
+        8
+      ],
+      [
+        "M",
+        "M1",
+        9
+      ]
+    ],
+    "('operation', 14, 'meal')": [
+      [
+        "M",
+        "M1",
+        10
+      ],
+      [
+        "M",
+        "M1",
+        11
+      ]
+    ],
+    "('operation', 15, 'meal')": [
+      [
+        "M",
+        "M1",
+        12
+      ],
+      [
+        "M",
+        "M1",
+        13
+      ]
+    ],
+    "('operation', 21, 'meal')": [
+      [
+        "M",
+        "M1",
+        14
+      ],
+      [
+        "M",
+        "M1",
+        15
+      ]
+    ],
+    "('operation', 26, 'meal')": [
+      [
+        "M",
+        "M1",
+        16
+      ],
+      [
+        "M",
+        "M1",
+        17
+      ]
+    ],
+    "('operation', 35, 'meal')": [
+      [
+        "M",
+        "M1",
+        18
+      ],
+      [
+        "M",
+        "M1",
+        19
+      ]
+    ],
+    "('operation', 39, 'meal')": [
+      [
+        "M",
+        "M1",
+        20
+      ],
+      [
+        "M",
+        "M1",
+        21
+      ]
+    ],
+    "('operation', 31, 'meal')": [
+      [
+        "M",
+        "M1",
+        22
+      ],
+      [
+        "M",
+        "M1",
+        23
+      ]
+    ],
+    "('operation', 29, 'meal')": [
+      [
+        "M",
+        "M1",
+        10
+      ],
+      [
+        "M",
+        "M1",
+        11
+      ]
+    ],
+    "('operation', 41, 'meal')": [
+      [
+        "M",
+        "M1",
+        12
+      ],
+      [
+        "M",
+        "M1",
+        13
+      ]
+    ],
+    "('operation', 9, 'meal')": [
+      [
+        "M",
+        "M1",
+        14
+      ],
+      [
+        "M",
+        "M1",
+        15
+      ]
+    ],
+    "('operation', 25, 'meal')": [
+      [
+        "M",
+        "M1",
+        16
+      ],
+      [
+        "M",
+        "M1",
+        17
+      ]
+    ],
+    "('operation', 23, 'meal')": [
+      [
+        "M",
+        "M1",
+        22
+      ],
+      [
+        "M",
+        "M1",
+        23
+      ]
+    ],
+    "('operation', 42, 'aircon_b')": [
+      [
+        "M",
+        "M1",
+        24
+      ]
+    ],
+    "('operation', 42, 'power_b')": [
+      [
+        "M",
+        "M1",
+        24
+      ]
+    ],
+    "('operation', 13, 'meal')": [
+      [
+        "M",
+        "M1",
+        10
+      ],
+      [
+        "M",
+        "M1",
+        11
+      ]
+    ],
+    "('operation', 12, 'meal')": [
+      [
+        "M",
+        "M1",
+        14
+      ],
+      [
+        "M",
+        "M1",
+        15
+      ]
+    ],
+    "('operation', 18, 'meal')": [
+      [
+        "M",
+        "M1",
+        7
+      ],
+      [
+        "M",
+        "M1",
+        16
+      ]
+    ],
+    "('operation', 38, 'meal')": [
+      [
+        "M",
+        "M1",
+        17
+      ],
+      [
+        "M",
+        "M1",
+        22
+      ]
+    ],
+    "('operation', 46, 'power_b')": [
+      [
+        "M",
+        "M1",
+        1
+      ]
+    ],
+    "('operation', 40, 'meal')": [
+      [
+        "M",
+        "M1",
+        2
+      ],
+      [
+        "M",
+        "M1",
+        3
+      ]
+    ],
+    "('operation', 30, 'meal')": [
+      [
+        "M",
+        "M1",
+        4
+      ],
+      [
+        "M",
+        "M1",
+        5
+      ]
+    ],
+    "('operation', 36, 'meal')": [
+      [
+        "M",
+        "M1",
+        6
+      ],
+      [
+        "M",
+        "M1",
+        23
+      ]
+    ],
+    "('operation', 37, 'meal')": [
+      [
+        "M",
+        "M1",
+        25
+      ],
+      [
+        "M",
+        "M1",
+        26
+      ]
+    ],
+    "('operation', 17, 'meal')": [
+      [
+        "M",
+        "M1",
+        10
+      ],
+      [
+        "M",
+        "M1",
+        11
+      ]
+    ],
+    "('operation', 46, 'aircon_b')": [
+      [
+        "M",
+        "M1",
+        1
+      ]
+    ],
+    "('operation', 34, 'meal')": [
+      [
+        "M",
+        "M1",
+        8
+      ],
+      [
+        "M",
+        "M1",
+        9
+      ]
+    ],
+    "('operation', 39, 'power_b')": [
+      [
+        "M",
+        "M1",
+        14
+      ]
+    ],
+    "('operation', 32, 'meal')": [
+      [
+        "M",
+        "M1",
+        15
+      ],
+      [
+        "M",
+        "M1",
+        18
+      ]
+    ],
+    "('operation', 33, 'meal')": [
+      [
+        "M",
+        "M1",
+        19
+      ],
+      [
+        "M",
+        "M1",
+        20
+      ]
+    ],
+    "('operation', 39, 'aircon_b')": [
+      [
+        "M",
+        "M1",
+        7
+      ]
+    ],
+    "('operation', 35, 'aircon_b')": [
+      [
+        "M",
+        "M1",
+        7
+      ]
+    ],
+    "('operation', 4, 'meal')": [
+      [
+        "M",
+        "M1",
+        16
+      ],
+      [
+        "M",
+        "M1",
+        21
+      ]
+    ],
+    "('operation', 10, 'meal')": [
+      [
+        "M",
+        "M1",
+        4
+      ],
+      [
+        "M",
+        "M1",
+        5
+      ]
+    ],
+    "('operation', 47, 'power_b')": [
+      [
+        "M",
+        "M1",
+        10
+      ]
+    ],
+    "('operation', 2, 'meal')": [
+      [
+        "M",
+        "M1",
+        11
+      ],
+      [
+        "M",
+        "M1",
+        12
+      ]
+    ],
+    "('operation', 6, 'meal')": [
+      [
+        "M",
+        "M1",
+        13
+      ],
+      [
+        "M",
+        "M1",
+        24
+      ]
+    ],
+    "('operation', 7, 'meal')": [
+      [
+        "M",
+        "M1",
+        27
+      ],
+      [
+        "M",
+        "M1",
+        28
+      ]
+    ],
+    "('operation', 41, 'aircon_b')": [
+      [
+        "M",
+        "M1",
+        10
+      ]
+    ],
+    "('operation', 47, 'aircon_b')": [
+      [
+        "M",
+        "M1",
+        14
+      ]
+    ],
+    "('operation', 16, 'meal')": [
+      [
+        "M",
+        "M1",
+        16
+      ],
+      [
+        "M",
+        "M1",
+        21
+      ]
+    ],
+    "('operation', 44, 'power_b')": [
+      [
+        "M",
+        "M1",
+        29
+      ]
+    ],
+    "('operation', 20, 'meal')": [
+      [
+        "M",
+        "M1",
+        4
+      ],
+      [
+        "M",
+        "M1",
+        5
+      ]
+    ],
+    "('operation', 1, 'meal')": [
+      [
+        "M",
+        "M1",
+        30
+      ],
+      [
+        "M",
+        "M1",
+        31
+      ]
+    ],
+    "('operation', 28, 'meal')": [
+      [
+        "M",
+        "M1",
+        11
+      ],
+      [
+        "M",
+        "M1",
+        12
+      ]
+    ],
+    "('operation', 27, 'meal')": [
+      [
+        "M",
+        "M1",
+        13
+      ],
+      [
+        "M",
+        "M1",
+        24
+      ]
+    ],
+    "('operation', 5, 'meal')": [
+      [
+        "M",
+        "M1",
+        1
+      ],
+      [
+        "M",
+        "M1",
+        16
+      ]
+    ],
+    "('operation', 24, 'meal')": [
+      [
+        "M",
+        "M1",
+        17
+      ],
+      [
+        "M",
+        "M1",
+        21
+      ]
+    ],
+    "('operation', 19, 'meal')": [
+      [
+        "M",
+        "M1",
+        4
+      ],
+      [
+        "M",
+        "M1",
+        5
+      ]
+    ],
+    "('operation', 22, 'meal')": [
+      [
+        "M",
+        "M1",
+        22
+      ],
+      [
+        "M",
+        "M1",
+        27
+      ]
+    ],
+    "('operation', 36, 'power_b')": [
+      [
+        "M",
+        "M1",
+        2
+      ]
+    ],
+    "('operation', 40, 'aircon_b')": [
+      [
+        "M",
+        "M1",
+        2
+      ]
+    ],
+    "('operation', 8, 'oil')": [
+      [
+        "M",
+        "M2",
+        1
+      ]
+    ],
+    "('operation', 6, 'oil')": [
+      [
+        "M",
+        "M2",
+        1
+      ]
+    ],
+    "('operation', 46, 'nitrogen')": [
+      [
+        "M",
+        "M2",
+        1
+      ]
+    ],
+    "('operation', 46, 'oxygen')": [
+      [
+        "M",
+        "M2",
+        2
+      ]
+    ],
+    "('operation', 47, 'oxygen')": [
+      [
+        "M",
+        "M2",
+        3
+      ]
+    ],
+    "('material_vehicle', 20)": [
+      [
+        "M",
+        "M3",
+        1
+      ]
+    ],
+    "('material_vehicle', 40)": [
+      [
+        "M",
+        "M3",
+        2
+      ]
+    ],
+    "('material_vehicle', 0)": [
+      [
+        "M",
+        "M3",
+        1
+      ]
+    ],
+    "('material_staff', 20)": [
+      [
+        "M",
+        "M4",
+        1
+      ],
+      [
+        "M",
+        "M4",
+        2
+      ]
+    ],
+    "('material_staff', 40)": [
+      [
+        "M",
+        "M4",
+        3
+      ],
+      [
+        "M",
+        "M4",
+        4
+      ]
+    ],
+    "('material_staff', 0)": [
+      [
+        "M",
+        "M4",
+        1
+      ],
+      [
+        "M",
+        "M4",
+        2
+      ]
+    ],
+    "('parachute', 1)": [
+      [
+        "M",
+        "M4",
+        3
+      ],
+      [
+        "M",
+        "M4",
+        4
+      ]
+    ],
+    "('parachute', 0)": [
+      [
+        "M",
+        "M4",
+        1
+      ],
+      [
+        "M",
+        "M4",
+        2
+      ]
+    ],
+    "('operation', 0, 'tow')": [
+      [
+        "M",
+        "M5",
+        1
+      ]
+    ],
+    "('operation', 1, 'tow')": [
+      [
+        "M",
+        "M5",
+        2
+      ]
+    ],
+    "('operation', 2, 'tow')": [
+      [
+        "M",
+        "M5",
+        3
+      ]
+    ],
+    "('operation', 3, 'tow')": [
+      [
+        "M",
+        "M5",
+        4
+      ]
+    ],
+    "('operation', 4, 'tow')": [
+      [
+        "M",
+        "M5",
+        5
+      ]
+    ],
+    "('operation', 46, 'aircon_a')": [
+      [
+        "M",
+        "M5",
+        6
+      ]
+    ],
+    "('operation', 45, 'aircon_b')": [
+      [
+        "M",
+        "M5",
+        1
+      ]
+    ],
+    "('operation', 15, 'fuel')": [
+      [
+        "M",
+        "M6",
+        1
+      ]
+    ],
+    "('operation', 9, 'fuel')": [
+      [
+        "M",
+        "M6",
+        2
+      ]
+    ],
+    "('operation', 39, 'fuel')": [
+      [
+        "M",
+        "M6",
+        3
+      ]
+    ],
+    "('operation', 43, 'fuel')": [
+      [
+        "M",
+        "M6",
+        4
+      ]
+    ],
+    "('operation', 45, 'fuel')": [
+      [
+        "M",
+        "M6",
+        5
+      ]
+    ],
+    "('operation', 47, 'fuel')": [
+      [
+        "M",
+        "M6",
+        6
+      ]
+    ],
+    "('operation', 14, 'fuel')": [
+      [
+        "M",
+        "M6",
+        7
+      ]
+    ],
+    "('operation', 19, 'fuel')": [
+      [
+        "M",
+        "M6",
+        8
+      ]
+    ],
+    "('operation', 21, 'fuel')": [
+      [
+        "M",
+        "M6",
+        9
+      ]
+    ],
+    "('operation', 35, 'fuel')": [
+      [
+        "M",
+        "M6",
+        10
+      ]
+    ],
+    "('operation', 44, 'fuel')": [
+      [
+        "M",
+        "M6",
+        11
+      ]
+    ],
+    "('operation', 46, 'fuel')": [
+      [
+        "M",
+        "M6",
+        12
+      ]
+    ],
+    "('operation', 26, 'fuel')": [
+      [
+        "M",
+        "M6",
+        13
+      ]
+    ],
+    "('operation', 17, 'fuel')": [
+      [
+        "M",
+        "M6",
+        1
+      ]
+    ],
+    "('operation', 25, 'fuel')": [
+      [
+        "M",
+        "M6",
+        2
+      ]
+    ],
+    "('operation', 23, 'fuel')": [
+      [
+        "M",
+        "M6",
+        7
+      ]
+    ],
+    "('operation', 41, 'fuel')": [
+      [
+        "M",
+        "M6",
+        8
+      ]
+    ],
+    "('operation', 37, 'fuel')": [
+      [
+        "M",
+        "M6",
+        9
+      ]
+    ],
+    "('operation', 0, 'oil')": [
+      [
+        "M",
+        "M6",
+        13
+      ]
+    ],
+    "('operation', 31, 'fuel')": [
+      [
+        "M",
+        "M6",
+        1
+      ]
+    ],
+    "('operation', 29, 'fuel')": [
+      [
+        "M",
+        "M6",
+        2
+      ]
+    ],
+    "('operation', 38, 'fuel')": [
+      [
+        "M",
+        "M6",
+        7
+      ]
+    ],
+    "('operation', 22, 'fuel')": [
+      [
+        "M",
+        "M6",
+        3
+      ]
+    ],
+    "('operation', 34, 'fuel')": [
+      [
+        "M",
+        "M6",
+        4
+      ]
+    ],
+    "('operation', 40, 'fuel')": [
+      [
+        "M",
+        "M6",
+        5
+      ]
+    ],
+    "('operation', 12, 'fuel')": [
+      [
+        "M",
+        "M6",
+        6
+      ]
+    ],
+    "('operation', 13, 'fuel')": [
+      [
+        "M",
+        "M6",
+        10
+      ]
+    ],
+    "('operation', 3, 'fuel')": [
+      [
+        "M",
+        "M6",
+        11
+      ]
+    ],
+    "('operation', 32, 'fuel')": [
+      [
+        "M",
+        "M6",
+        12
+      ]
+    ],
+    "('operation', 33, 'fuel')": [
+      [
+        "M",
+        "M6",
+        13
+      ]
+    ],
+    "('operation', 18, 'fuel')": [
+      [
+        "M",
+        "M6",
+        1
+      ]
+    ],
+    "('operation', 47, 'meal')": [
+      [
+        "M",
+        "M6",
+        2
+      ],
+      [
+        "M",
+        "M6",
+        14
+      ]
+    ],
+    "('operation', 11, 'fuel')": [
+      [
+        "M",
+        "M6",
+        3
+      ]
+    ],
+    "('operation', 4, 'fuel')": [
+      [
+        "M",
+        "M6",
+        6
+      ]
+    ],
+    "('operation', 5, 'fuel')": [
+      [
+        "M",
+        "M6",
+        10
+      ]
+    ],
+    "('operation', 30, 'fuel')": [
+      [
+        "M",
+        "M6",
+        8
+      ]
+    ],
+    "('operation', 24, 'fuel')": [
+      [
+        "M",
+        "M6",
+        9
+      ]
+    ],
+    "('operation', 8, 'fuel')": [
+      [
+        "M",
+        "M6",
+        11
+      ]
+    ],
+    "('operation', 1, 'fuel')": [
+      [
+        "M",
+        "M6",
+        15
+      ]
+    ],
+    "('operation', 6, 'fuel')": [
+      [
+        "M",
+        "M6",
+        1
+      ]
+    ],
+    "('operation', 28, 'fuel')": [
+      [
+        "M",
+        "M6",
+        3
+      ]
+    ],
+    "('operation', 20, 'fuel')": [
+      [
+        "M",
+        "M6",
+        6
+      ]
+    ],
+    "('operation', 16, 'fuel')": [
+      [
+        "M",
+        "M6",
+        7
+      ]
+    ],
+    "('operation', 2, 'fuel')": [
+      [
+        "M",
+        "M6",
+        8
+      ]
+    ],
+    "('operation', 27, 'fuel')": [
+      [
+        "M",
+        "M6",
+        9
+      ]
+    ],
+    "('operation', 7, 'fuel')": [
+      [
+        "M",
+        "M6",
+        10
+      ]
+    ],
+    "('operation', 45, 'power_b')": [
+      [
+        "M",
+        "M6",
+        4
+      ]
+    ],
+    "('operation', 10, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 15, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 15, 'power_a')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 19, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 19, 'power_a')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 20, 'power_a')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 23, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 23, 'power_a')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 24, 'power_a')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 26, 'power_a')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 27, 'power_a')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 28, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 28, 'power_a')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 29, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 35, 'power_a')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 42, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 43, 'power_a')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 44, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 45, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        10
+      ]
+    ],
+    "('operation', 39, 'power_a')": [
+      [
+        "M",
+        "M7",
+        10
+      ]
+    ],
+    "('operation', 0, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        11
+      ]
+    ],
+    "('operation', 3, 'power_a')": [
+      [
+        "M",
+        "M7",
+        11
+      ]
+    ],
+    "('operation', 0, 'power_a')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 12, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 14, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 14, 'power_a')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 17, 'power_a')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 21, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 21, 'power_a')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 26, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 29, 'power_a')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 3, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 4, 'power_a')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 9, 'power_a')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 39, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 43, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 10, 'power_a')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 31, 'power_a')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 31, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 20, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 13, 'power_a')": [
+      [
+        "M",
+        "M7",
+        10
+      ]
+    ],
+    "('operation', 16, 'power_a')": [
+      [
+        "M",
+        "M7",
+        10
+      ]
+    ],
+    "('operation', 1, 'power_a')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 11, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 12, 'power_a')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 25, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 25, 'power_a')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 30, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 5, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 8, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 9, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 41, 'power_a')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 13, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 2, 'power_a')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 22, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 22, 'power_a')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 33, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 38, 'power_a')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 6, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 11, 'power_a')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 16, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 18, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 18, 'power_a')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 27, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 30, 'power_a')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 4, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 6, 'power_a')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 7, 'power_a')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 8, 'power_a')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 5, 'power_a')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 36, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 36, 'power_a')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 32, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 7, 'aircon_a')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 14, 'power_b')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 15, 'power_b')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 21, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 15, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 21, 'power_b')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 26, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 26, 'power_b')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 31, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 31, 'power_b')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 14, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 29, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 25, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 43, 'power_b')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 9, 'power_b')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 12, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 12, 'power_b')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 13, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 13, 'power_b')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 18, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 18, 'power_b')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 23, 'power_b')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 25, 'power_b')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 9, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 17, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 17, 'power_b')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 35, 'power_b')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 41, 'power_b')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 3, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 3, 'power_b')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 4, 'power_b')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 10, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 10, 'power_b')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 0, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 2, 'power_b')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 29, 'power_b')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 30, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 30, 'power_b')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 4, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 6, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 6, 'power_b')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 7, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 7, 'power_b')": [
+      [
+        "M",
+        "M7",
+        10
+      ]
+    ],
+    "('operation', 23, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 28, 'power_b')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 40, 'power_b')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 36, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        8
+      ]
+    ],
+    "('operation', 37, 'power_b')": [
+      [
+        "M",
+        "M7",
+        4
+      ]
+    ],
+    "('operation', 33, 'power_b')": [
+      [
+        "M",
+        "M7",
+        5
+      ]
+    ],
+    "('operation', 5, 'power_b')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 32, 'power_b')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 24, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        9
+      ]
+    ],
+    "('operation', 34, 'power_b')": [
+      [
+        "M",
+        "M7",
+        10
+      ]
+    ],
+    "('operation', 32, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        11
+      ]
+    ],
+    "('operation', 33, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        11
+      ]
+    ],
+    "('operation', 34, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        12
+      ]
+    ],
+    "('operation', 37, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        12
+      ]
+    ],
+    "('operation', 19, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        13
+      ]
+    ],
+    "('operation', 19, 'power_b')": [
+      [
+        "M",
+        "M7",
+        13
+      ]
+    ],
+    "('operation', 22, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        14
+      ]
+    ],
+    "('operation', 22, 'power_b')": [
+      [
+        "M",
+        "M7",
+        14
+      ]
+    ],
+    "('operation', 0, 'power_b')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 1, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 1, 'power_b')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 11, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 11, 'power_b')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 16, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        3
+      ]
+    ],
+    "('operation', 16, 'power_b')": [
+      [
+        "M",
+        "M7",
+        6
+      ]
+    ],
+    "('operation', 2, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 24, 'power_b')": [
+      [
+        "M",
+        "M7",
+        7
+      ]
+    ],
+    "('operation', 27, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        10
+      ]
+    ],
+    "('operation', 27, 'power_b')": [
+      [
+        "M",
+        "M7",
+        15
+      ]
+    ],
+    "('operation', 28, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        15
+      ]
+    ],
+    "('operation', 5, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        16
+      ]
+    ],
+    "('operation', 8, 'aircon_b')": [
+      [
+        "M",
+        "M7",
+        16
+      ]
+    ],
+    "('operation', 8, 'power_b')": [
+      [
+        "M",
+        "M7",
+        17
+      ]
+    ],
+    "('operation', 46, 'power_a')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 15, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 19, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 14, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 21, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 21, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 26, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 42, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 42, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        6
+      ]
+    ],
+    "('operation', 23, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        7
+      ]
+    ],
+    "('operation', 17, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        8
+      ]
+    ],
+    "('operation', 19, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 26, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 17, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 43, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 45, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        7
+      ]
+    ],
+    "('operation', 35, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 35, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        6
+      ]
+    ],
+    "('operation', 39, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 14, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 39, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 15, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 44, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 45, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 0, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 31, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 31, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 29, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 29, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 22, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 3, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 12, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 22, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 12, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 41, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        6
+      ]
+    ],
+    "('operation', 13, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 23, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 25, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 13, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 25, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 18, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 18, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 5, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 30, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 24, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 38, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 38, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 37, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        6
+      ]
+    ],
+    "('operation', 36, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 36, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 40, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 30, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        7
+      ]
+    ],
+    "('operation', 37, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 40, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 34, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 33, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        6
+      ]
+    ],
+    "('operation', 32, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        7
+      ]
+    ],
+    "('operation', 32, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 4, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 4, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 8, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 24, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 5, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 10, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 1, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 6, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 28, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 1, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 2, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        3
+      ]
+    ],
+    "('operation', 2, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        4
+      ]
+    ],
+    "('operation', 7, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        5
+      ]
+    ],
+    "('operation', 7, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        6
+      ]
+    ],
+    "('operation', 16, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        7
+      ]
+    ],
+    "('operation', 16, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        8
+      ]
+    ],
+    "('operation', 28, 'nitrogen')": [
+      [
+        "M",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 20, 'oxygen')": [
+      [
+        "M",
+        "M8",
+        2
+      ]
+    ],
+    "('operation', 24, 'aircon_a')": [
+      [
+        "N",
+        "M1",
+        1
+      ]
+    ],
+    "('operation', 42, 'meal')": [
+      [
+        "N",
+        "M1",
+        1
+      ],
+      [
+        "N",
+        "M1",
+        2
+      ]
+    ],
+    "('operation', 0, 'meal')": [
+      [
+        "N",
+        "M1",
+        1
+      ],
+      [
+        "N",
+        "M1",
+        2
+      ]
+    ],
+    "('operation', 8, 'meal')": [
+      [
+        "N",
+        "M1",
+        1
+      ],
+      [
+        "N",
+        "M1",
+        2
+      ]
+    ],
+    "('operation', 20, 'power_b')": [
+      [
+        "N",
+        "M1",
+        1
+      ]
+    ],
+    "('operation', 20, 'aircon_b')": [
+      [
+        "N",
+        "M1",
+        1
+      ]
+    ],
+    "('operation', 0, 'fuel')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 43, 'nitrogen')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 44, 'oxygen')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 0, 'oxygen')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 3, 'nitrogen')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 10, 'fuel')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 6, 'nitrogen')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 27, 'nitrogen')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 20, 'nitrogen')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 27, 'oxygen')": [
+      [
+        "N",
+        "M4",
+        1
+      ]
+    ],
+    "('operation', 42, 'fuel')": [
+      [
+        "N",
+        "M6",
+        1
+      ]
+    ],
+    "('operation', 36, 'fuel')": [
+      [
+        "N",
+        "M6",
+        1
+      ]
+    ],
+    "('operation', 7, 'oil')": [
+      [
+        "N",
+        "M6",
+        1
+      ]
+    ],
+    "('operation', 44, 'power_a')": [
+      [
+        "N",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 45, 'power_a')": [
+      [
+        "N",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 5, 'oil')": [
+      [
+        "N",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 3, 'meal')": [
+      [
+        "N",
+        "M7",
+        1
+      ],
+      [
+        "N",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 44, 'aircon_b')": [
+      [
+        "N",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 43, 'aircon_b')": [
+      [
+        "N",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 11, 'meal')": [
+      [
+        "N",
+        "M7",
+        1
+      ],
+      [
+        "N",
+        "M7",
+        2
+      ]
+    ],
+    "('operation', 38, 'power_b')": [
+      [
+        "N",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 38, 'aircon_b')": [
+      [
+        "N",
+        "M7",
+        1
+      ]
+    ],
+    "('operation', 17, 'aircon_a')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 2, 'aircon_a')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 47, 'nitrogen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 9, 'nitrogen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 41, 'nitrogen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 9, 'oxygen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 11, 'oxygen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 34, 'nitrogen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 33, 'oxygen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 8, 'oxygen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 10, 'oxygen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ],
+    "('operation', 11, 'nitrogen')": [
+      [
+        "N",
+        "M8",
+        1
+      ]
+    ]
+  },
+  "joint_double_slot_assignments": {},
+  "joint_double_slot_status": "NOT_PROVEN"
+}

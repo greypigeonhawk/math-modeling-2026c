@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "directory": "/home/pigeon/Documents/ChatGPT/数学建模/figures/问题3专项",
+  "questions": [
+    "q3"
+  ],
+  "files": {
+    "flow_overall_model.png": {
+      "width_px": 1830,
+      "height_px": 570,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 1.9000038000076
+    },
+    "flow_overall_model.svg": {
+      "text_count": 12,
+      "embedded_raster": false
+    },
+    "process_q3_batch.png": {
+      "width_px": 1830,
+      "height_px": 915,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 3.0500061000122
+    },
+    "process_q3_batch.svg": {
+      "text_count": 23,
+      "embedded_raster": false
+    },
+    "process_q3_cycle.png": {
+      "width_px": 1830,
+      "height_px": 660,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 2.2000044000088
+    },
+    "process_q3_cycle.svg": {
+      "text_count": 10,
+      "embedded_raster": false
+    },
+    "process_q3_rest.png": {
+      "width_px": 1830,
+      "height_px": 735,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 2.4500049000098003
+    },
+    "process_q3_rest.svg": {
+      "text_count": 13,
+      "embedded_raster": false
+    },
+    "raw_q3_distance.png": {
+      "width_px": 1830,
+      "height_px": 825,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 2.7500055000110004
+    },
+    "raw_q3_distance.svg": {
+      "text_count": 23,
+      "embedded_raster": false
+    },
+    "raw_q3_parking.png": {
+      "width_px": 1830,
+      "height_px": 750,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 2.5000050000100003
+    },
+    "raw_q3_parking.svg": {
+      "text_count": 16,
+      "embedded_raster": false
+    },
+    "raw_q3_vehicles.png": {
+      "width_px": 1830,
+      "height_px": 645,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 2.1500043000086
+    },
+    "raw_q3_vehicles.svg": {
+      "text_count": 60,
+      "embedded_raster": false
+    },
+    "result_q3_ground.png": {
+      "width_px": 1830,
+      "height_px": 765,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 2.5500051000102
+    },
+    "result_q3_ground.svg": {
+      "text_count": 15,
+      "embedded_raster": false
+    },
+    "result_q3_load.png": {
+      "width_px": 1830,
+      "height_px": 750,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 2.5000050000100003
+    },
+    "result_q3_load.svg": {
+      "text_count": 21,
+      "embedded_raster": false
+    },
+    "result_q3_parking.png": {
+      "width_px": 1830,
+      "height_px": 750,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 6.1000122000244,
+      "height_in": 2.5000050000100003
+    },
+    "result_q3_parking.svg": {
+      "text_count": 17,
+      "embedded_raster": false
+    }
+  },
+  "issues": []
+}

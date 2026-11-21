@@ -1,0 +1,228 @@
+{
+  "purpose": "问题2多技能双槽聚合候选复现清单",
+  "source": {
+    "path": "data/新2026C.docx",
+    "sha256": "088ad6c553f3e19b7cf6c29eb3477e0a2b237b2047ecf8d1f7daa3bd2a3a0687"
+  },
+  "normalized_input": {
+    "path": "results/q23_normalized.json",
+    "sha256": "0e303279b5947c23eb6491354a83ba778ee72c0edd9a74abacbc32c22138e569"
+  },
+  "solver": {
+    "script": "问题2_多技能双容量候选.py",
+    "random_seed": 20261121,
+    "scale": 36,
+    "workers": 8,
+    "initial_time_limit_per_stage_seconds": 20,
+    "order": "people_then_vehicles_then_fairness",
+    "scope": "aggregate double-slot; crew binding; first/second/third skills",
+    "baseline_hints": [
+      "results/q2_b16_crew_hint.json",
+      "results/q2_b24_crew_hint.json",
+      "results/q2_b30_crew_hint.json"
+    ]
+  },
+  "verification": {
+    "script": "验证问题2多技能候选.py",
+    "results": [
+      "PASS",
+      "PASS",
+      "PASS"
+    ],
+    "certificate_script": "生成问题2双槽配对证书.py",
+    "certificate_results": [
+      "PASS",
+      "PASS",
+      "PASS"
+    ],
+    "certificate_scope": "独立车辆池/人员池区间着色；joint_double_slot_status=NOT_PROVEN，不能宣称最终同车同人模块证书",
+    "certificate_commands": [
+      "python '生成问题2双槽配对证书.py' results/q2_improved_b16_peoplefirst.json --output results/q2_improved_b16_assignment.json",
+      "python '生成问题2双槽配对证书.py' results/q2_improved_b24_peoplefirst.json --output results/q2_improved_b24_assignment.json",
+      "python '生成问题2双槽配对证书.py' results/q2_improved_b30_peoplefirst.json --output results/q2_improved_b30_assignment.json"
+    ]
+  },
+  "cases": [
+    {
+      "b_aircraft": 16,
+      "result": "results/q2_improved_b16_peoplefirst.json",
+      "status": "FEASIBLE",
+      "selected_final_stage": "fairness_refinement",
+      "dispatch_people": {
+        "M1": 2,
+        "M2": 0,
+        "M3": 0,
+        "M4": 1,
+        "M5": 0,
+        "M6": 1,
+        "M7": 2,
+        "M8": 1
+      },
+      "dispatch_vehicles": {
+        "Z1": 0,
+        "Z2": 2,
+        "Z3": 1,
+        "Z4": 0,
+        "Z5": 0,
+        "Z6": 0,
+        "Z7": 0,
+        "Z8": 3,
+        "Z9": 1
+      },
+      "total_people": 7,
+      "total_vehicles": 7,
+      "group_utilization_range_percentage_points": 4.2,
+      "stage_results": [
+        {
+          "stage": "people",
+          "status": "FEASIBLE",
+          "objective": 7,
+          "best_bound": 2.0
+        },
+        {
+          "stage": "vehicles",
+          "status": "FEASIBLE",
+          "objective": 7,
+          "best_bound": 1.0
+        },
+        {
+          "stage": "fairness",
+          "status": "FEASIBLE",
+          "objective": 694.0,
+          "best_bound": 0.0
+        },
+        {
+          "stage": "fairness_refinement",
+          "status": "FEASIBLE",
+          "objective": 42.0,
+          "best_bound": 0.0,
+          "time_limit_s": 20.0
+        }
+      ],
+      "solve_command": "python '问题2_多技能双容量候选.py' --a 32 --b 16 --time-limit 20 --refinement-time-limit 20 --workers 8 --baseline results/q2_b16_crew_hint.json --order people --output results/q2_improved_b16_peoplefirst.json",
+      "certificate_output": "results/q2_improved_b16_assignment.json"
+    },
+    {
+      "b_aircraft": 24,
+      "result": "results/q2_improved_b24_peoplefirst.json",
+      "status": "FEASIBLE",
+      "selected_final_stage": "fairness_refinement",
+      "dispatch_people": {
+        "M1": 1,
+        "M2": 0,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "M6": 3,
+        "M7": 2,
+        "M8": 1
+      },
+      "dispatch_vehicles": {
+        "Z1": 0,
+        "Z2": 6,
+        "Z3": 2,
+        "Z4": 0,
+        "Z5": 0,
+        "Z6": 0,
+        "Z7": 0,
+        "Z8": 7,
+        "Z9": 1
+      },
+      "total_people": 8,
+      "total_vehicles": 16,
+      "group_utilization_range_percentage_points": 2.8,
+      "stage_results": [
+        {
+          "stage": "people",
+          "status": "FEASIBLE",
+          "objective": 8,
+          "best_bound": 2.0
+        },
+        {
+          "stage": "vehicles",
+          "status": "FEASIBLE",
+          "objective": 16,
+          "best_bound": 6.0
+        },
+        {
+          "stage": "fairness",
+          "status": "FEASIBLE",
+          "objective": 266.0,
+          "best_bound": 0.0
+        },
+        {
+          "stage": "fairness_refinement",
+          "status": "FEASIBLE",
+          "objective": 28.0,
+          "best_bound": 0.0,
+          "time_limit_s": 40.0
+        }
+      ],
+      "solve_command": "python '问题2_多技能双容量候选.py' --a 32 --b 24 --time-limit 20 --refinement-time-limit 40 --workers 8 --baseline results/q2_b24_crew_hint.json --order people --output results/q2_improved_b24_peoplefirst.json",
+      "certificate_output": "results/q2_improved_b24_assignment.json"
+    },
+    {
+      "b_aircraft": 30,
+      "result": "results/q2_improved_b30_peoplefirst.json",
+      "status": "FEASIBLE",
+      "selected_final_stage": "fairness_refinement",
+      "dispatch_people": {
+        "M1": 6,
+        "M2": 0,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "M6": 4,
+        "M7": 5,
+        "M8": 1
+      },
+      "dispatch_vehicles": {
+        "Z1": 0,
+        "Z2": 12,
+        "Z3": 3,
+        "Z4": 0,
+        "Z5": 0,
+        "Z6": 0,
+        "Z7": 0,
+        "Z8": 10,
+        "Z9": 1
+      },
+      "total_people": 17,
+      "total_vehicles": 26,
+      "group_utilization_range_percentage_points": 2.1,
+      "stage_results": [
+        {
+          "stage": "people",
+          "status": "FEASIBLE",
+          "objective": 17,
+          "best_bound": 4.0
+        },
+        {
+          "stage": "vehicles",
+          "status": "FEASIBLE",
+          "objective": 26,
+          "best_bound": 11.0
+        },
+        {
+          "stage": "fairness",
+          "status": "FEASIBLE",
+          "objective": 153.0,
+          "best_bound": 0.0
+        },
+        {
+          "stage": "fairness_refinement",
+          "status": "FEASIBLE",
+          "objective": 21.0,
+          "best_bound": 0.0,
+          "time_limit_s": 40.0
+        }
+      ],
+      "solve_command": "python '问题2_多技能双容量候选.py' --a 32 --b 30 --time-limit 20 --refinement-time-limit 40 --workers 8 --baseline results/q2_b30_crew_hint.json --order people --output results/q2_improved_b30_peoplefirst.json",
+      "certificate_output": "results/q2_improved_b30_assignment.json"
+    }
+  ],
+  "environment": {
+    "python": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:19:41) [GCC 14.3.0]",
+    "ortools": "9.15.6755"
+  }
+}

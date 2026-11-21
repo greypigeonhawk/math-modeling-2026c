@@ -1,0 +1,52 @@
+{
+  "promoted_skills": [
+    [
+      "M1",
+      "加油"
+    ],
+    [
+      "M3",
+      "电源空调"
+    ],
+    [
+      "M5",
+      "餐食"
+    ],
+    [
+      "M6",
+      "充气"
+    ],
+    [
+      "M7",
+      "餐食"
+    ]
+  ],
+  "people_additions": {
+    "M6": 0,
+    "M1": 0,
+    "M8": 0,
+    "M7": 6,
+    "M2": 0,
+    "M4": 0,
+    "M5": 0,
+    "M3": 0
+  },
+  "vehicle_additions": {
+    "Z2": 17,
+    "Z3": 0,
+    "Z4": 0,
+    "Z8": 10,
+    "Z1": 6,
+    "Z7": 1,
+    "Z5": 10,
+    "Z6": 11,
+    "Z9": 3
+  },
+  "source_schedule": "pairing/fixed.csv",
+  "reordered": false,
+  "fixed_aircraft_count": 156,
+  "limit_minutes": 120,
+  "status": "FEASIBLE",
+  "objective": 818.0,
+  "bound": 585.0
+}

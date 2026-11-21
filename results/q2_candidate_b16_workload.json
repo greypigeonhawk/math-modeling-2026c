@@ -1,0 +1,28 @@
+{
+  "source_result": "results/q2_candidate_b16.json",
+  "status": "FEASIBLE",
+  "aircraft_a": 32,
+  "aircraft_b": 16,
+  "scope": "受限候选方案；组均利用率不代表个人负荷均衡",
+  "groups": [
+    {
+      "group": "M1",
+      "dispatched_people": 2,
+      "workload_person_minutes": 117.7778,
+      "utilization": 0.490741
+    },
+    {
+      "group": "M6",
+      "dispatched_people": 1,
+      "workload_person_minutes": 76.6667,
+      "utilization": 0.638889
+    },
+    {
+      "group": "M7",
+      "dispatched_people": 7,
+      "workload_person_minutes": 776.6667,
+      "utilization": 0.924603
+    }
+  ],
+  "group_utilization_range": 0.433862
+}

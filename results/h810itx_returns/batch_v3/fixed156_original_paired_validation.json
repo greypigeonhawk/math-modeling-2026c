@@ -1,0 +1,53 @@
+[
+  {
+    "file": "fixed156_original_paired.csv",
+    "flow": "fixed",
+    "aircraft": 156,
+    "horizon_minutes": 120,
+    "status": "PASS",
+    "errors": [],
+    "tow_count": 16,
+    "oil_count": 16,
+    "intersection_count": 4,
+    "vehicle_additions": {
+      "Z1": 8,
+      "Z2": 89,
+      "Z3": 4,
+      "Z4": 0,
+      "Z5": 22,
+      "Z6": 20,
+      "Z7": 3,
+      "Z8": 36,
+      "Z9": 4
+    },
+    "people_additions": {
+      "M1": 0,
+      "M2": 0,
+      "M3": 0,
+      "M4": 0,
+      "M5": 102,
+      "M6": 0,
+      "M7": 0,
+      "M8": 6
+    },
+    "resource_peaks": {
+      "vehicle_Z3": 8,
+      "vehicle_Z4": 7,
+      "vehicle_Z1": 16,
+      "vehicle_Z7": 4,
+      "vehicle_Z2": 101,
+      "vehicle_Z8": 46,
+      "vehicle_Z5": 37,
+      "vehicle_Z6": 35,
+      "vehicle_Z9": 5,
+      "staff_M8": 28,
+      "staff_M5": 234,
+      "staff_M2": 18,
+      "staff_M1": 82,
+      "staff_M6": 60,
+      "staff_M7": 20,
+      "staff_M3": 8,
+      "staff_M4": 16
+    }
+  }
+]

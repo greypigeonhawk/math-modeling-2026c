@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "scope": "问题3多波次候选；不证明全局最优性",
+  "result": "results/q3_dual_45waves.json",
+  "waves": 45,
+  "batch_count": 540,
+  "landing_count": 4320,
+  "operation_count": 27000,
+  "electrical_job_count": 4320,
+  "makespan_min": 24137.0,
+  "resource_peaks": {
+    "丙/M5": {
+      "peak": 1,
+      "capacity": 15
+    },
+    "丙/M6": {
+      "peak": 8,
+      "capacity": 20
+    },
+    "丙/M8": {
+      "peak": 6,
+      "capacity": 8
+    },
+    "丙/M1": {
+      "peak": 10,
+      "capacity": 50
+    },
+    "丙/M4": {
+      "peak": 2,
+      "capacity": 8
+    },
+    "丁/M5": {
+      "peak": 1,
+      "capacity": 20
+    },
+    "丁/M6": {
+      "peak": 8,
+      "capacity": 25
+    },
+    "丁/M8": {
+      "peak": 6,
+      "capacity": 8
+    },
+    "丁/M1": {
+      "peak": 10,
+      "capacity": 50
+    },
+    "丁/M4": {
+      "peak": 2,
+      "capacity": 8
+    },
+    "丙/M7": {
+      "peak": 4,
+      "capacity": 20
+    },
+    "丁/M7": {
+      "peak": 4,
+      "capacity": 20
+    }
+  },
+  "parking_peaks": {
+    "F3/A": {
+      "peak": 6,
+      "capacity": 24
+    },
+    "F3/B": {
+      "peak": 2,
+      "capacity": 18
+    },
+    "F4/A": {
+      "peak": 6,
+      "capacity": 12
+    },
+    "F4/B": {
+      "peak": 2,
+      "capacity": 18
+    }
+  }
+}

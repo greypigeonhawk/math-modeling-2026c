@@ -1,0 +1,15 @@
+{
+  "metric": "第45波次最后完工时刻，相对K=0（分钟）",
+  "lower_bound_minutes": 9237,
+  "total_batches": 540,
+  "last_batch_first_touchdown_lower_bound": 9163,
+  "later_B_touchdown_lower_bound": 9164,
+  "B_minimum_path_minutes": 73,
+  "assumptions": [
+    "全局批次按题面顺序相邻衔接，前批末机到下批首机至少10分钟",
+    "首架着陆与首道保障同时发生，K=0",
+    "B型飞机由第一技能人员完成再次保障的工序时间为下界",
+    "忽略资源冲突、跑道休息、返航限制，故只是必要下界"
+  ],
+  "feasible_schedule_proved": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "UNKNOWN",
+  "objective": null,
+  "bound": 0.0,
+  "limit_minutes": 100,
+  "solver_time_limit_seconds": 150.0,
+  "solver_wall_time_seconds": 150.03842226400002,
+  "solver_workers": 3,
+  "max_added_vehicles": null,
+  "reordered": true,
+  "fixed_aircraft_count": null,
+  "tested_aircraft_count": 60
+}

@@ -1,0 +1,78 @@
+{
+  "data/新2026C.docx": {
+    "sha256": "088ad6c553f3e19b7cf6c29eb3477e0a2b237b2047ecf8d1f7daa3bd2a3a0687",
+    "bytes": 150809
+  },
+  "requirements.txt": {
+    "sha256": "672c02ea3f723bea4a8e39643caab8c57c513418c812767096ebed55224240cf",
+    "bytes": 19
+  },
+  "results/q1_source_tables.json": {
+    "sha256": "4b10def9fece65fa09653fc7ee53efba1575b9dd50d98ed840b55b7a747c2d62",
+    "bytes": 5257
+  },
+  "run_156.sh": {
+    "sha256": "8586798f68fdd6250e8751ee4d931fe4885c1364c6df0b5fddeab4f2ff5bf9e2",
+    "bytes": 433
+  },
+  "run_all.sh": {
+    "sha256": "7c8ad881e78baf534fa32bc75e202ea74ef78118a17dcda3c6d69ed979be474c",
+    "bytes": 765
+  },
+  "run_max.sh": {
+    "sha256": "25dba77b72437812fc7fd3aa1d80e3ef0b5f326349996539002db31bafc76253",
+    "bytes": 399
+  },
+  "wheelhouse/absl_py-2.5.1-py3-none-any.whl": {
+    "sha256": "721200f2f0e9960f2ca9dc3a2a706b201f5f75d812c158f059cbbe29eeafbdb8",
+    "bytes": 137673
+  },
+  "wheelhouse/immutabledict-4.3.1-py3-none-any.whl": {
+    "sha256": "c9facdc0ff30fdb8e35bd16532026cac472a549e182c94fa201b51b25e4bf7bf",
+    "bytes": 5000
+  },
+  "wheelhouse/numpy-2.5.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": {
+    "sha256": "704d819265e5d1064d932968e9ee85fff2103ccc78c05b878c06943ba27b8507",
+    "bytes": 15720599
+  },
+  "wheelhouse/ortools-9.15.6755-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": {
+    "sha256": "033836c0eb33bc72697a299e0caedbb25fc9d1cee0b13832d69cb30405f57b3e",
+    "bytes": 29838435
+  },
+  "wheelhouse/pandas-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl": {
+    "sha256": "028490c8ac2e03e18c9b08b7f3612e149b03570209bcf741d23833a7a5377ab2",
+    "bytes": 12031410
+  },
+  "wheelhouse/protobuf-6.33.6-py3-none-any.whl": {
+    "sha256": "77179e006c476e69bf8e8ce866640091ec42e1beb80b213c3900006ecfba6901",
+    "bytes": 170656
+  },
+  "wheelhouse/python_dateutil-4.0.0-py3-none-any.whl": {
+    "sha256": "a5e246f79eb80475e691bf93862cead98decd8a498cf53ba0516fcdc0f50dc1c",
+    "bytes": 92853
+  },
+  "wheelhouse/typing_extensions-4.16.0-py3-none-any.whl": {
+    "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+    "bytes": 45571
+  },
+  "wheelhouse/tzdata-2026.6-py2.py3-none-any.whl": {
+    "sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec",
+    "bytes": 348210
+  },
+  "术语表格.md": {
+    "sha256": "f1145f58c1a345403b293e3cae712864885220302b2e08cc256ecc3834098ef7",
+    "bytes": 5167
+  },
+  "问题1_优化模型.py": {
+    "sha256": "ed18a14ed3c25b2f7457f0d909f000c3aff0b9336f2f2e8e0c2086ab58417b49",
+    "bytes": 44614
+  },
+  "题目分析报告.md": {
+    "sha256": "04baa6e0dd64b46b3131f3b1f98d82fa4b3398024b3ebd1565c7f4a98f3f93b4",
+    "bytes": 19693
+  },
+  "验证第一问排程.py": {
+    "sha256": "310b6040dbe2421b76b0fa72e9c72f72f306e033fa37d35c3876edb77a3d0c0f",
+    "bytes": 10813
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "scope": "单跑道串行切片，无驰援；休息从第18批保障完毕起算",
+  "complete_problem3": false,
+  "template_sha256": "7626dd49fea46f2debce81238bc4b144546ea0463aec1256ceebdcd80088d502",
+  "batches": [
+    {
+      "batch": 1,
+      "wave": 1,
+      "start_min": 0,
+      "last_landing_min": 7,
+      "last_finish_min": 80.0,
+      "aircraft_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        73,
+        74
+      ]
+    },
+    {
+      "batch": 2,
+      "wave": 1,
+      "start_min": 100,
+      "last_landing_min": 107,
+      "last_finish_min": 180.0,
+      "aircraft_ids": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        75,
+        76
+      ]
+    },
+    {
+      "batch": 3,
+      "wave": 1,
+      "start_min": 200,
+      "last_landing_min": 207,
+      "last_finish_min": 280.0,
+      "aircraft_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        77,
+        78
+      ]
+    },
+    {
+      "batch": 4,
+      "wave": 1,
+      "start_min": 300,
+      "last_landing_min": 307,
+      "last_finish_min": 380.0,
+      "aircraft_ids": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        79,
+        80
+      ]
+    },
+    {
+      "batch": 5,
+      "wave": 1,
+      "start_min": 400,
+      "last_landing_min": 407,
+      "last_finish_min": 480.0,
+      "aircraft_ids": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        81,
+        82
+      ]
+    },
+    {
+      "batch": 6,
+      "wave": 1,
+      "start_min": 500,
+      "last_landing_min": 507,
+      "last_finish_min": 580.0,
+      "aircraft_ids": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        83,
+        84
+      ]
+    },
+    {
+      "batch": 7,
+      "wave": 1,
+      "start_min": 600,
+      "last_landing_min": 607,
+      "last_finish_min": 680.0,
+      "aircraft_ids": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        85,
+        86
+      ]
+    },
+    {
+      "batch": 8,
+      "wave": 1,
+      "start_min": 700,
+      "last_landing_min": 707,
+      "last_finish_min": 780.0,
+      "aircraft_ids": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        87,
+        88
+      ]
+    },
+    {
+      "batch": 9,
+      "wave": 1,
+      "start_min": 800,
+      "last_landing_min": 807,
+      "last_finish_min": 880.0,
+      "aircraft_ids": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        89,
+        90
+      ]
+    },
+    {
+      "batch": 10,
+      "wave": 1,
+      "start_min": 900,
+      "last_landing_min": 907,
+      "last_finish_min": 980.0,
+      "aircraft_ids": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        91,
+        92
+      ]
+    },
+    {
+      "batch": 11,
+      "wave": 1,
+      "start_min": 1000,
+      "last_landing_min": 1007,
+      "last_finish_min": 1080.0,
+      "aircraft_ids": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        93,
+        94
+      ]
+    },
+    {
+      "batch": 12,
+      "wave": 1,
+      "start_min": 1100,
+      "last_landing_min": 1107,
+      "last_finish_min": 1180.0,
+      "aircraft_ids": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        95,
+        96
+      ]
+    },
+    {
+      "batch": 13,
+      "wave": 2,
+      "start_min": 1200,
+      "last_landing_min": 1207,
+      "last_finish_min": 1280.0,
+      "aircraft_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        73,
+        74
+      ]
+    },
+    {
+      "batch": 14,
+      "wave": 2,
+      "start_min": 1300,
+      "last_landing_min": 1307,
+      "last_finish_min": 1380.0,
+      "aircraft_ids": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        75,
+        76
+      ]
+    },
+    {
+      "batch": 15,
+      "wave": 2,
+      "start_min": 1400,
+      "last_landing_min": 1407,
+      "last_finish_min": 1480.0,
+      "aircraft_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        77,
+        78
+      ]
+    },
+    {
+      "batch": 16,
+      "wave": 2,
+      "start_min": 1500,
+      "last_landing_min": 1507,
+      "last_finish_min": 1580.0,
+      "aircraft_ids": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        79,
+        80
+      ]
+    },
+    {
+      "batch": 17,
+      "wave": 2,
+      "start_min": 1600,
+      "last_landing_min": 1607,
+      "last_finish_min": 1680.0,
+      "aircraft_ids": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        81,
+        82
+      ]
+    },
+    {
+      "batch": 18,
+      "wave": 2,
+      "start_min": 1700,
+      "last_landing_min": 1707,
+      "last_finish_min": 1780.0,
+      "aircraft_ids": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        83,
+        84
+      ]
+    },
+    {
+      "batch": 19,
+      "wave": 2,
+      "start_min": 1960.0,
+      "last_landing_min": 1967.0,
+      "last_finish_min": 2040.0,
+      "aircraft_ids": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        85,
+        86
+      ]
+    }
+  ],
+  "rest_windows": [
+    {
+      "after_batch": 18,
+      "start_min": 1780.0,
+      "end_min": 1960.0
+    }
+  ]
+}

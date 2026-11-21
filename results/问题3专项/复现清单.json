@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-21T07:59:34.981214+00:00",
+  "random_seed": 0,
+  "input_files": [
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/data/新2026C.docx",
+      "sha256": "088ad6c553f3e19b7cf6c29eb3477e0a2b237b2047ecf8d1f7daa3bd2a3a0687",
+      "bytes": 150809
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/results/q23_normalized.json",
+      "sha256": "0e303279b5947c23eb6491354a83ba778ee72c0edd9a74abacbc32c22138e569",
+      "bytes": 4534
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/题目分析报告.md",
+      "sha256": "8a6d05d59353af34fca0cb0572ff7453e1c835c18e2aa3ff43ef3599ec78c353",
+      "bytes": 20876
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/术语表格.md",
+      "sha256": "bd9ecd404abca413a1676314c8261ecd64c8b20f8aba4fc8ead3c4ba06d8d643",
+      "bytes": 5368
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题3_排程.py",
+      "sha256": "4cdd8a912bda17fb2edb6363e024ac5d161f796511bd39fb3d76ce023924d1db",
+      "bytes": 8084
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题3_复核.py",
+      "sha256": "74cdd0ec03fbd1ec76564bd49cadb0d6cfcd984eed5f7dc3798aa59bc71c7e88",
+      "bytes": 17037
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题3_图表.py",
+      "sha256": "e238f046038fb7245165ed03d458a2aede28e76a59c61c98a95c719781f19943",
+      "bytes": 10738
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/问题3_复现.sh",
+      "sha256": "efca4913975c9b65573789ecec130dc33684b24653a0d83a5db585be55cd945c",
+      "bytes": 351
+    },
+    {
+      "path": "/home/pigeon/Documents/ChatGPT/数学建模/utils/q3_plot_style.py",
+      "sha256": "f3de0a0c858d6018310d7e461574697a4cec7b28e5e20b8ccdaa7749772147e2",
+      "bytes": 17160
+    }
+  ],
+  "runtime": {
+    "name": "python",
+    "version": "3.13.13",
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.39",
+    "dependencies": {
+      "openpyxl": "3.1.5",
+      "python-docx": "1.2.0",
+      "matplotlib": "3.11.0"
+    }
+  },
+  "key_parameters": {
+    "randomized": false,
+    "waves": 45,
+    "batches_per_wave": 12,
+    "cycle_batches": 54,
+    "airborne_minutes": 120,
+    "service_limit_minutes": 80,
+    "rest_minutes": 180
+  },
+  "reproduce_command": "sh 问题3_复现.sh"
+}

@@ -1,0 +1,52 @@
+FEASIBLE 803.0 599.0
+{
+  "file": "fixed.csv",
+  "flow": "fixed",
+  "aircraft": 156,
+  "horizon_minutes": 120,
+  "status": "PASS",
+  "errors": [],
+  "tow_count": 16,
+  "oil_count": 16,
+  "intersection_count": 4,
+  "vehicle_additions": {
+    "Z2": 17,
+    "Z3": 0,
+    "Z4": 0,
+    "Z8": 10,
+    "Z1": 6,
+    "Z7": 1,
+    "Z5": 10,
+    "Z6": 10,
+    "Z9": 3
+  },
+  "people_additions": {
+    "M6": 0,
+    "M1": 0,
+    "M8": 0,
+    "M7": 5,
+    "M2": 0,
+    "M4": 0,
+    "M5": 0,
+    "M3": 0
+  },
+  "resource_peaks": {
+    "vehicle_Z3": 4,
+    "vehicle_Z4": 7,
+    "vehicle_Z2": 29,
+    "vehicle_Z8": 20,
+    "vehicle_Z1": 13,
+    "vehicle_Z7": 2,
+    "vehicle_Z5": 25,
+    "vehicle_Z6": 25,
+    "vehicle_Z9": 4,
+    "staff_M6": 60,
+    "staff_M8": 16,
+    "staff_M7": 50,
+    "staff_M1": 88,
+    "staff_M2": 20,
+    "staff_M4": 16,
+    "staff_M5": 30,
+    "staff_M3": 8
+  }
+}

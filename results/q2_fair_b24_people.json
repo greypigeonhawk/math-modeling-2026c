@@ -1,0 +1,882 @@
+{
+  "source_result": "results/q2_fair_b24.json",
+  "scope": "候选排程固定时刻下的贪心个人分工；不声称负荷最优",
+  "groups": {
+    "M6": {
+      "individual_workload_minutes": {
+        "M6-1": 80.0,
+        "M6-2": 76.6667,
+        "M6-3": 63.3333,
+        "M6-4": 60.0
+      },
+      "assignments": [
+        {
+          "aircraft": 45,
+          "operation": "fuel",
+          "start_min": 0.0,
+          "end_min": 30.0,
+          "people": [
+            "M6-1"
+          ]
+        },
+        {
+          "aircraft": 46,
+          "operation": "fuel",
+          "start_min": 0.0,
+          "end_min": 30.0,
+          "people": [
+            "M6-2"
+          ]
+        },
+        {
+          "aircraft": 50,
+          "operation": "fuel",
+          "start_min": 0.0,
+          "end_min": 30.0,
+          "people": [
+            "M6-3"
+          ]
+        },
+        {
+          "aircraft": 51,
+          "operation": "fuel",
+          "start_min": 0.0,
+          "end_min": 30.0,
+          "people": [
+            "M6-4"
+          ]
+        },
+        {
+          "aircraft": 30,
+          "operation": "fuel",
+          "start_min": 30.0,
+          "end_min": 46.666666666666664,
+          "people": [
+            "M6-1"
+          ]
+        },
+        {
+          "aircraft": 41,
+          "operation": "fuel",
+          "start_min": 30.0,
+          "end_min": 60.0,
+          "people": [
+            "M6-2"
+          ]
+        },
+        {
+          "aircraft": 7,
+          "operation": "fuel",
+          "start_min": 33.333333333333336,
+          "end_min": 50.0,
+          "people": [
+            "M6-3"
+          ]
+        },
+        {
+          "aircraft": 49,
+          "operation": "fuel",
+          "start_min": 39.333333333333336,
+          "end_min": 69.33333333333333,
+          "people": [
+            "M6-4"
+          ]
+        },
+        {
+          "aircraft": 16,
+          "operation": "fuel",
+          "start_min": 48.333333333333336,
+          "end_min": 65.0,
+          "people": [
+            "M6-1"
+          ]
+        },
+        {
+          "aircraft": 6,
+          "operation": "fuel",
+          "start_min": 60.0,
+          "end_min": 76.66666666666667,
+          "people": [
+            "M6-3"
+          ]
+        },
+        {
+          "aircraft": 1,
+          "operation": "fuel",
+          "start_min": 61.666666666666664,
+          "end_min": 78.33333333333333,
+          "people": [
+            "M6-2"
+          ]
+        },
+        {
+          "aircraft": 10,
+          "operation": "fuel",
+          "start_min": 65.0,
+          "end_min": 81.66666666666667,
+          "people": [
+            "M6-1"
+          ]
+        }
+      ]
+    },
+    "M1": {
+      "individual_workload_minutes": {
+        "M1-1": 69.4444,
+        "M1-2": 69.4444,
+        "M1-3": 67.7778,
+        "M1-4": 67.7778
+      },
+      "assignments": [
+        {
+          "aircraft": 46,
+          "operation": "meal",
+          "start_min": 33.333333333333336,
+          "end_min": 58.333333333333336,
+          "people": [
+            "M1-1",
+            "M1-2"
+          ]
+        },
+        {
+          "aircraft": 51,
+          "operation": "meal",
+          "start_min": 33.333333333333336,
+          "end_min": 58.333333333333336,
+          "people": [
+            "M1-3",
+            "M1-4"
+          ]
+        },
+        {
+          "aircraft": 27,
+          "operation": "meal",
+          "start_min": 59.5,
+          "end_min": 68.38888888888889,
+          "people": [
+            "M1-1",
+            "M1-2"
+          ]
+        },
+        {
+          "aircraft": 54,
+          "operation": "meal",
+          "start_min": 62.0,
+          "end_min": 87.0,
+          "people": [
+            "M1-3",
+            "M1-4"
+          ]
+        },
+        {
+          "aircraft": 16,
+          "operation": "meal",
+          "start_min": 69.0,
+          "end_min": 77.88888888888889,
+          "people": [
+            "M1-1",
+            "M1-2"
+          ]
+        },
+        {
+          "aircraft": 14,
+          "operation": "meal",
+          "start_min": 77.88888888888889,
+          "end_min": 86.77777777777777,
+          "people": [
+            "M1-1",
+            "M1-2"
+          ]
+        },
+        {
+          "aircraft": 8,
+          "operation": "meal",
+          "start_min": 86.77777777777777,
+          "end_min": 95.66666666666667,
+          "people": [
+            "M1-1",
+            "M1-2"
+          ]
+        },
+        {
+          "aircraft": 21,
+          "operation": "meal",
+          "start_min": 87.0,
+          "end_min": 95.88888888888889,
+          "people": [
+            "M1-3",
+            "M1-4"
+          ]
+        },
+        {
+          "aircraft": 11,
+          "operation": "meal",
+          "start_min": 95.66666666666667,
+          "end_min": 104.55555555555556,
+          "people": [
+            "M1-1",
+            "M1-2"
+          ]
+        },
+        {
+          "aircraft": 10,
+          "operation": "meal",
+          "start_min": 95.88888888888889,
+          "end_min": 104.77777777777777,
+          "people": [
+            "M1-3",
+            "M1-4"
+          ]
+        }
+      ]
+    },
+    "M7": {
+      "individual_workload_minutes": {
+        "M7-1": 90.0,
+        "M7-2": 90.0,
+        "M7-3": 90.0,
+        "M7-4": 90.0,
+        "M7-5": 90.0,
+        "M7-6": 90.0,
+        "M7-7": 90.0,
+        "M7-8": 90.0,
+        "M7-9": 90.0,
+        "M7-10": 90.0,
+        "M7-11": 75.0,
+        "M7-12": 75.0
+      },
+      "assignments": [
+        {
+          "aircraft": 34,
+          "operation": "power_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-1"
+          ]
+        },
+        {
+          "aircraft": 37,
+          "operation": "power_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-2"
+          ]
+        },
+        {
+          "aircraft": 38,
+          "operation": "aircon_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-3"
+          ]
+        },
+        {
+          "aircraft": 39,
+          "operation": "aircon_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-4"
+          ]
+        },
+        {
+          "aircraft": 39,
+          "operation": "power_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-5"
+          ]
+        },
+        {
+          "aircraft": 45,
+          "operation": "aircon_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-6"
+          ]
+        },
+        {
+          "aircraft": 46,
+          "operation": "power_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-7"
+          ]
+        },
+        {
+          "aircraft": 48,
+          "operation": "aircon_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-8"
+          ]
+        },
+        {
+          "aircraft": 48,
+          "operation": "power_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-9"
+          ]
+        },
+        {
+          "aircraft": 50,
+          "operation": "power_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-10"
+          ]
+        },
+        {
+          "aircraft": 51,
+          "operation": "aircon_a",
+          "start_min": 0.0,
+          "end_min": 15.0,
+          "people": [
+            "M7-11"
+          ]
+        },
+        {
+          "aircraft": 32,
+          "operation": "aircon_a",
+          "start_min": 15.0,
+          "end_min": 30.0,
+          "people": [
+            "M7-12"
+          ]
+        },
+        {
+          "aircraft": 32,
+          "operation": "power_a",
+          "start_min": 15.0,
+          "end_min": 30.0,
+          "people": [
+            "M7-1"
+          ]
+        },
+        {
+          "aircraft": 33,
+          "operation": "aircon_a",
+          "start_min": 15.0,
+          "end_min": 30.0,
+          "people": [
+            "M7-2"
+          ]
+        },
+        {
+          "aircraft": 42,
+          "operation": "power_a",
+          "start_min": 15.0,
+          "end_min": 30.0,
+          "people": [
+            "M7-3"
+          ]
+        },
+        {
+          "aircraft": 43,
+          "operation": "power_a",
+          "start_min": 15.0,
+          "end_min": 30.0,
+          "people": [
+            "M7-4"
+          ]
+        },
+        {
+          "aircraft": 45,
+          "operation": "power_a",
+          "start_min": 15.0,
+          "end_min": 30.0,
+          "people": [
+            "M7-5"
+          ]
+        },
+        {
+          "aircraft": 47,
+          "operation": "aircon_a",
+          "start_min": 15.0,
+          "end_min": 30.0,
+          "people": [
+            "M7-6"
+          ]
+        },
+        {
+          "aircraft": 50,
+          "operation": "aircon_a",
+          "start_min": 15.0,
+          "end_min": 30.0,
+          "people": [
+            "M7-7"
+          ]
+        },
+        {
+          "aircraft": 52,
+          "operation": "aircon_a",
+          "start_min": 15.0,
+          "end_min": 30.0,
+          "people": [
+            "M7-8"
+          ]
+        },
+        {
+          "aircraft": 53,
+          "operation": "power_a",
+          "start_min": 16.666666666666668,
+          "end_min": 31.666666666666668,
+          "people": [
+            "M7-9"
+          ]
+        },
+        {
+          "aircraft": 41,
+          "operation": "aircon_a",
+          "start_min": 25.47222222222222,
+          "end_min": 40.47222222222222,
+          "people": [
+            "M7-10"
+          ]
+        },
+        {
+          "aircraft": 41,
+          "operation": "power_a",
+          "start_min": 30.0,
+          "end_min": 45.0,
+          "people": [
+            "M7-11"
+          ]
+        },
+        {
+          "aircraft": 44,
+          "operation": "power_a",
+          "start_min": 30.0,
+          "end_min": 45.0,
+          "people": [
+            "M7-12"
+          ]
+        },
+        {
+          "aircraft": 47,
+          "operation": "power_a",
+          "start_min": 30.0,
+          "end_min": 45.0,
+          "people": [
+            "M7-1"
+          ]
+        },
+        {
+          "aircraft": 53,
+          "operation": "aircon_a",
+          "start_min": 30.0,
+          "end_min": 45.0,
+          "people": [
+            "M7-2"
+          ]
+        },
+        {
+          "aircraft": 54,
+          "operation": "power_a",
+          "start_min": 30.0,
+          "end_min": 45.0,
+          "people": [
+            "M7-3"
+          ]
+        },
+        {
+          "aircraft": 55,
+          "operation": "aircon_a",
+          "start_min": 30.0,
+          "end_min": 45.0,
+          "people": [
+            "M7-4"
+          ]
+        },
+        {
+          "aircraft": 35,
+          "operation": "aircon_a",
+          "start_min": 33.333333333333336,
+          "end_min": 48.333333333333336,
+          "people": [
+            "M7-5"
+          ]
+        },
+        {
+          "aircraft": 34,
+          "operation": "aircon_a",
+          "start_min": 45.0,
+          "end_min": 60.0,
+          "people": [
+            "M7-6"
+          ]
+        },
+        {
+          "aircraft": 36,
+          "operation": "aircon_a",
+          "start_min": 45.0,
+          "end_min": 60.0,
+          "people": [
+            "M7-7"
+          ]
+        },
+        {
+          "aircraft": 55,
+          "operation": "power_a",
+          "start_min": 45.0,
+          "end_min": 60.0,
+          "people": [
+            "M7-8"
+          ]
+        },
+        {
+          "aircraft": 51,
+          "operation": "power_b",
+          "start_min": 58.333333333333336,
+          "end_min": 73.33333333333333,
+          "people": [
+            "M7-9"
+          ]
+        },
+        {
+          "aircraft": 51,
+          "operation": "aircon_b",
+          "start_min": 60.0,
+          "end_min": 75.0,
+          "people": [
+            "M7-10"
+          ]
+        },
+        {
+          "aircraft": 45,
+          "operation": "aircon_b",
+          "start_min": 61.111111111111114,
+          "end_min": 76.11111111111111,
+          "people": [
+            "M7-11"
+          ]
+        },
+        {
+          "aircraft": 45,
+          "operation": "power_b",
+          "start_min": 61.111111111111114,
+          "end_min": 76.11111111111111,
+          "people": [
+            "M7-12"
+          ]
+        },
+        {
+          "aircraft": 43,
+          "operation": "aircon_b",
+          "start_min": 64.44444444444444,
+          "end_min": 79.44444444444444,
+          "people": [
+            "M7-1"
+          ]
+        },
+        {
+          "aircraft": 48,
+          "operation": "aircon_b",
+          "start_min": 64.44444444444444,
+          "end_min": 79.44444444444444,
+          "people": [
+            "M7-2"
+          ]
+        },
+        {
+          "aircraft": 52,
+          "operation": "aircon_b",
+          "start_min": 64.44444444444444,
+          "end_min": 79.44444444444444,
+          "people": [
+            "M7-3"
+          ]
+        },
+        {
+          "aircraft": 43,
+          "operation": "power_b",
+          "start_min": 65.0,
+          "end_min": 80.0,
+          "people": [
+            "M7-4"
+          ]
+        },
+        {
+          "aircraft": 46,
+          "operation": "aircon_b",
+          "start_min": 65.0,
+          "end_min": 80.0,
+          "people": [
+            "M7-5"
+          ]
+        },
+        {
+          "aircraft": 40,
+          "operation": "power_b",
+          "start_min": 67.77777777777777,
+          "end_min": 82.77777777777777,
+          "people": [
+            "M7-6"
+          ]
+        },
+        {
+          "aircraft": 38,
+          "operation": "power_b",
+          "start_min": 73.77777777777777,
+          "end_min": 88.77777777777777,
+          "people": [
+            "M7-9"
+          ]
+        },
+        {
+          "aircraft": 32,
+          "operation": "aircon_b",
+          "start_min": 74.11111111111111,
+          "end_min": 89.11111111111111,
+          "people": [
+            "M7-7"
+          ]
+        },
+        {
+          "aircraft": 32,
+          "operation": "power_b",
+          "start_min": 75.0,
+          "end_min": 90.0,
+          "people": [
+            "M7-8"
+          ]
+        },
+        {
+          "aircraft": 38,
+          "operation": "aircon_b",
+          "start_min": 75.0,
+          "end_min": 90.0,
+          "people": [
+            "M7-10"
+          ]
+        },
+        {
+          "aircraft": 40,
+          "operation": "aircon_b",
+          "start_min": 79.44444444444444,
+          "end_min": 94.44444444444444,
+          "people": [
+            "M7-11"
+          ]
+        },
+        {
+          "aircraft": 48,
+          "operation": "power_b",
+          "start_min": 79.44444444444444,
+          "end_min": 94.44444444444444,
+          "people": [
+            "M7-12"
+          ]
+        },
+        {
+          "aircraft": 39,
+          "operation": "power_b",
+          "start_min": 81.77777777777777,
+          "end_min": 96.77777777777777,
+          "people": [
+            "M7-1"
+          ]
+        },
+        {
+          "aircraft": 50,
+          "operation": "aircon_b",
+          "start_min": 81.77777777777777,
+          "end_min": 96.77777777777777,
+          "people": [
+            "M7-2"
+          ]
+        },
+        {
+          "aircraft": 52,
+          "operation": "power_b",
+          "start_min": 82.77777777777777,
+          "end_min": 97.77777777777777,
+          "people": [
+            "M7-3"
+          ]
+        },
+        {
+          "aircraft": 54,
+          "operation": "aircon_b",
+          "start_min": 87.0,
+          "end_min": 102.0,
+          "people": [
+            "M7-4"
+          ]
+        },
+        {
+          "aircraft": 53,
+          "operation": "power_b",
+          "start_min": 88.88888888888889,
+          "end_min": 103.88888888888889,
+          "people": [
+            "M7-9"
+          ]
+        },
+        {
+          "aircraft": 33,
+          "operation": "aircon_b",
+          "start_min": 90.0,
+          "end_min": 105.0,
+          "people": [
+            "M7-5"
+          ]
+        },
+        {
+          "aircraft": 33,
+          "operation": "power_b",
+          "start_min": 90.0,
+          "end_min": 105.0,
+          "people": [
+            "M7-6"
+          ]
+        },
+        {
+          "aircraft": 42,
+          "operation": "power_b",
+          "start_min": 90.0,
+          "end_min": 105.0,
+          "people": [
+            "M7-7"
+          ]
+        },
+        {
+          "aircraft": 50,
+          "operation": "power_b",
+          "start_min": 90.0,
+          "end_min": 105.0,
+          "people": [
+            "M7-8"
+          ]
+        },
+        {
+          "aircraft": 54,
+          "operation": "power_b",
+          "start_min": 90.0,
+          "end_min": 105.0,
+          "people": [
+            "M7-10"
+          ]
+        },
+        {
+          "aircraft": 36,
+          "operation": "aircon_b",
+          "start_min": 101.55555555555556,
+          "end_min": 116.55555555555556,
+          "people": [
+            "M7-11"
+          ]
+        },
+        {
+          "aircraft": 34,
+          "operation": "aircon_b",
+          "start_min": 101.69444444444444,
+          "end_min": 116.69444444444444,
+          "people": [
+            "M7-12"
+          ]
+        },
+        {
+          "aircraft": 49,
+          "operation": "aircon_b",
+          "start_min": 103.55555555555556,
+          "end_min": 118.55555555555556,
+          "people": [
+            "M7-1"
+          ]
+        },
+        {
+          "aircraft": 34,
+          "operation": "power_b",
+          "start_min": 103.88888888888889,
+          "end_min": 118.88888888888889,
+          "people": [
+            "M7-2"
+          ]
+        },
+        {
+          "aircraft": 44,
+          "operation": "aircon_b",
+          "start_min": 104.44444444444444,
+          "end_min": 119.44444444444444,
+          "people": [
+            "M7-3"
+          ]
+        },
+        {
+          "aircraft": 44,
+          "operation": "power_b",
+          "start_min": 104.44444444444444,
+          "end_min": 119.44444444444444,
+          "people": [
+            "M7-4"
+          ]
+        },
+        {
+          "aircraft": 35,
+          "operation": "aircon_b",
+          "start_min": 105.0,
+          "end_min": 120.0,
+          "people": [
+            "M7-5"
+          ]
+        },
+        {
+          "aircraft": 35,
+          "operation": "power_b",
+          "start_min": 105.0,
+          "end_min": 120.0,
+          "people": [
+            "M7-6"
+          ]
+        },
+        {
+          "aircraft": 47,
+          "operation": "power_b",
+          "start_min": 105.0,
+          "end_min": 120.0,
+          "people": [
+            "M7-7"
+          ]
+        },
+        {
+          "aircraft": 49,
+          "operation": "power_b",
+          "start_min": 105.0,
+          "end_min": 120.0,
+          "people": [
+            "M7-8"
+          ]
+        },
+        {
+          "aircraft": 53,
+          "operation": "aircon_b",
+          "start_min": 105.0,
+          "end_min": 120.0,
+          "people": [
+            "M7-9"
+          ]
+        },
+        {
+          "aircraft": 55,
+          "operation": "power_b",
+          "start_min": 105.0,
+          "end_min": 120.0,
+          "people": [
+            "M7-10"
+          ]
+        }
+      ]
+    }
+  }
+}

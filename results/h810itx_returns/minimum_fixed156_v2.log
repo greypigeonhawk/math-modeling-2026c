@@ -1,0 +1,65 @@
+{
+  "status": "FEASIBLE",
+  "objective": 684468033.0,
+  "bound": 324306000.0,
+  "limit_minutes": 120,
+  "reordered": false,
+  "fixed_aircraft_count": 156,
+  "tested_aircraft_count": null,
+  "promoted_skills": [
+    [
+      "M1",
+      "加油"
+    ],
+    [
+      "M2",
+      "伞勤"
+    ],
+    [
+      "M3",
+      "电源空调"
+    ],
+    [
+      "M4",
+      "牵引"
+    ],
+    [
+      "M5",
+      "餐食"
+    ],
+    [
+      "M6",
+      "充气"
+    ],
+    [
+      "M7",
+      "餐食"
+    ],
+    [
+      "M8",
+      "加油"
+    ]
+  ],
+  "people_additions": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0,
+    "M4": 0,
+    "M5": 0,
+    "M6": 0,
+    "M7": 32,
+    "M8": 1
+  },
+  "vehicle_additions": {
+    "Z1": 6,
+    "Z2": 17,
+    "Z3": 12,
+    "Z4": 9,
+    "Z5": 28,
+    "Z6": 27,
+    "Z7": 1,
+    "Z8": 11,
+    "Z9": 3
+  },
+  "schedule_csv": "results/q1_remote_fixed156_min_v2.csv"
+}

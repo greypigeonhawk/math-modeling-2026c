@@ -1,0 +1,63 @@
+{
+  "promoted_skills": [
+    [
+      "M1",
+      "加油"
+    ],
+    [
+      "M2",
+      "伞勤"
+    ],
+    [
+      "M3",
+      "电源空调"
+    ],
+    [
+      "M4",
+      "牵引"
+    ],
+    [
+      "M5",
+      "餐食"
+    ],
+    [
+      "M6",
+      "充气"
+    ],
+    [
+      "M7",
+      "牵引"
+    ],
+    [
+      "M8",
+      "加油"
+    ]
+  ],
+  "vehicle_additions": {
+    "Z1": 6,
+    "Z2": 17,
+    "Z3": 3,
+    "Z4": 0,
+    "Z5": 16,
+    "Z6": 15,
+    "Z7": 1,
+    "Z8": 10,
+    "Z9": 1
+  },
+  "people_additions": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0,
+    "M4": 0,
+    "M5": 0,
+    "M6": 0,
+    "M7": 15,
+    "M8": 0
+  },
+  "status": "FEASIBLE",
+  "method": "regroup_existing_schedule",
+  "source_schedule": "results/h810itx_returns/q1_remote_reordered156_min_v2.csv",
+  "fixed_aircraft_count": 156,
+  "limit_minutes": 120,
+  "reordered": true
+}

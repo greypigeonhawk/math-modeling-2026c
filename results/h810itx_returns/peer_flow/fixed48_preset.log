@@ -1,0 +1,15 @@
+{
+  "status": "OPTIMAL",
+  "objective": 0.0,
+  "bound": 0.0,
+  "limit_minutes": 100,
+  "solver_time_limit_seconds": 110.0,
+  "solver_wall_time_seconds": 0.176897894,
+  "solver_workers": 8,
+  "max_added_vehicles": null,
+  "reordered": false,
+  "fixed_aircraft_count": null,
+  "tested_aircraft_count": 48,
+  "promoted_skills": [],
+  "schedule_csv": "peer/fixed48_preset.csv"
+}

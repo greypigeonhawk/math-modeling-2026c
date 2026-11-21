@@ -1,0 +1,48 @@
+[2026-11-20T21:35:12+08:00] START fixed156_120_cap52
+[2026-11-20T22:05:12+08:00] END fixed156_120_cap52 exit=2
+{
+  "status": "UNKNOWN",
+  "objective": null,
+  "bound": 306294015.0,
+  "limit_minutes": 120,
+  "reordered": false,
+  "fixed_aircraft_count": 156,
+  "tested_aircraft_count": null
+}
+[2026-11-20T22:05:12+08:00] START reordered156_120_cap52
+[2026-11-20T22:35:13+08:00] END reordered156_120_cap52 exit=2
+{
+  "status": "UNKNOWN",
+  "objective": null,
+  "bound": 300290008.0,
+  "limit_minutes": 120,
+  "reordered": true,
+  "fixed_aircraft_count": 156,
+  "tested_aircraft_count": null
+}
+[2026-11-20T22:35:13+08:00] START max100_fixed
+[2026-11-20T22:36:13+08:00] END max100_fixed exit=0
+{
+  "status": "OPTIMAL",
+  "objective": 40.0,
+  "bound": 40.0,
+  "limit_minutes": 100,
+  "reordered": false,
+  "fixed_aircraft_count": null,
+  "tested_aircraft_count": null,
+  "promoted_skills": [],
+  "schedule_csv": "results/q1_remote_fixed_max.csv"
+}
+[2026-11-20T22:36:13+08:00] START max100_reordered
+[2026-11-20T22:36:21+08:00] END max100_reordered exit=0
+{
+  "status": "OPTIMAL",
+  "objective": 40.0,
+  "bound": 40.0,
+  "limit_minutes": 100,
+  "reordered": true,
+  "fixed_aircraft_count": null,
+  "tested_aircraft_count": null,
+  "promoted_skills": [],
+  "schedule_csv": "results/q1_remote_reordered_max.csv"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "FEASIBLE",
+  "objective": 474398030.0,
+  "bound": 288282015.0,
+  "limit_minutes": 120,
+  "reordered": true,
+  "fixed_aircraft_count": 156,
+  "tested_aircraft_count": null,
+  "people_additions": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0,
+    "M4": 0,
+    "M5": 0,
+    "M6": 0,
+    "M7": 25,
+    "M8": 5
+  },
+  "vehicle_additions": {
+    "Z1": 6,
+    "Z2": 17,
+    "Z3": 12,
+    "Z4": 9,
+    "Z5": 8,
+    "Z6": 9,
+    "Z7": 1,
+    "Z8": 15,
+    "Z9": 2
+  }
+}

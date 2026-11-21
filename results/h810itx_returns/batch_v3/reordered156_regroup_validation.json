@@ -1,0 +1,51 @@
+{
+  "file": "reordered156_regroup.csv",
+  "flow": "reordered",
+  "aircraft": 156,
+  "horizon_minutes": 120,
+  "status": "PASS",
+  "errors": [],
+  "tow_count": 16,
+  "oil_count": 16,
+  "intersection_count": 4,
+  "vehicle_additions": {
+    "Z1": 6,
+    "Z2": 17,
+    "Z3": 3,
+    "Z4": 0,
+    "Z5": 16,
+    "Z6": 15,
+    "Z7": 1,
+    "Z8": 10,
+    "Z9": 1
+  },
+  "people_additions": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0,
+    "M4": 0,
+    "M5": 0,
+    "M6": 0,
+    "M7": 15,
+    "M8": 0
+  },
+  "resource_peaks": {
+    "vehicle_Z3": 7,
+    "vehicle_Z4": 6,
+    "vehicle_Z2": 29,
+    "vehicle_Z8": 20,
+    "vehicle_Z7": 2,
+    "vehicle_Z1": 12,
+    "vehicle_Z5": 31,
+    "vehicle_Z6": 30,
+    "vehicle_Z9": 2,
+    "staff_M7": 70,
+    "staff_M8": 16,
+    "staff_M6": 60,
+    "staff_M1": 90,
+    "staff_M5": 30,
+    "staff_M4": 16,
+    "staff_M2": 12,
+    "staff_M3": 8
+  }
+}

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="439.2pt" height="136.8pt" viewBox="0 0 439.2 136.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-21T15:59:34.333334</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 136.8 
+L 439.2 136.8 
+L 439.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 15.996226 85.927136 
+L 78.810156 85.927136 
+Q 84.874949 85.927136 84.874949 84.095942 
+L 84.874949 56.628043 
+Q 84.874949 54.79685 78.810156 54.79685 
+L 15.996226 54.79685 
+Q 9.931432 54.79685 9.931432 56.628043 
+L 9.931432 84.095942 
+Q 9.931432 85.927136 15.996226 85.927136 
+z
+" clip-path="url(#p512543633d)" style="fill: #eaf1f5; stroke: #254c72; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 97.437735 45.117685 
+L 170.648454 45.117685 
+L 170.648454 14.510598 
+L 97.437735 14.510598 
+z
+" clip-path="url(#p512543633d)" style="fill: #ffffff; stroke: #254c72; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 97.437735 122.289402 
+L 170.648454 122.289402 
+L 170.648454 91.682315 
+L 97.437735 91.682315 
+z
+" clip-path="url(#p512543633d)" style="fill: #ffffff; stroke: #254c72; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 188.409635 45.117685 
+L 261.620353 45.117685 
+L 261.620353 14.510598 
+L 188.409635 14.510598 
+z
+" clip-path="url(#p512543633d)" style="fill: #ffffff; stroke: #254c72; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 188.409635 122.289402 
+L 261.620353 122.289402 
+L 261.620353 91.682315 
+L 188.409635 91.682315 
+z
+" clip-path="url(#p512543633d)" style="fill: #ffffff; stroke: #254c72; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 279.381534 85.665537 
+L 352.592253 85.665537 
+L 352.592253 55.058449 
+L 279.381534 55.058449 
+z
+" clip-path="url(#p512543633d)" style="fill: #ffffff; stroke: #254c72; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 366.887837 85.927136 
+L 429.701767 85.927136 
+Q 435.76656 85.927136 435.76656 84.095942 
+L 435.76656 56.628043 
+Q 435.76656 54.79685 429.701767 54.79685 
+L 366.887837 54.79685 
+Q 360.823044 54.79685 360.823044 56.628043 
+L 360.823044 84.095942 
+Q 360.823044 85.927136 366.887837 85.927136 
+z
+" clip-path="url(#p512543633d)" style="fill: #eaf1f5; stroke: #254c72; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(34.803191 69.353993)">题面及</text>
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(30.603191 77.753993)">三种状态</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(117.243095 28.806142)">批间距与</text>
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(109.342501 37.206142)">B 机关键路径</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(113.043095 105.977858)">逐机模块与</text>
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(115.840032 114.377858)">54 批周期</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="225.014994" y="33.006142" transform="rotate(-0 225.014994 33.006142)">解析下界</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle" x="225.014994" y="110.177858" transform="rotate(-0 225.014994 110.177858)">全量事件复核</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(294.986893 69.353993)">下界与可行</text>
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(290.786893 77.753993)">完工时刻比对</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(381.494802 69.353993)">最优值和</text>
+    <text style="font-size: 8.4px; font-family: 'Noto Sans CJK SC', 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif" transform="translate(381.494802 77.753993)">排程附件</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 83.807894 68.473686 
+Q 90.290471 50.086571 96.457062 32.595713 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 94.044905 34.92627 
+L 96.457062 32.595713 
+L 96.874213 35.923773 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 83.869844 72.226269 
+Q 90.290246 88.6747 96.365092 104.237854 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 96.671567 100.897783 
+L 96.365092 104.237854 
+L 93.87692 101.988632 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 171.778517 29.814142 
+Q 179.093204 29.814142 185.457562 29.814142 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 182.457562 28.314142 
+L 185.457562 29.814142 
+L 182.457562 31.314142 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 171.778517 106.985858 
+Q 179.093204 106.985858 185.457562 106.985858 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 182.457562 105.485858 
+L 185.457562 106.985858 
+L 182.457562 108.485858 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 261.589603 31.633152 
+Q 270.068027 50.088683 278.149733 67.680652 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 278.260419 64.328377 
+L 278.149733 67.680652 
+L 275.534325 65.580738 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 261.660093 105.20429 
+Q 270.06761 88.674189 278.044297 72.991148 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 275.347251 74.985124 
+L 278.044297 72.991148 
+L 278.021251 76.34517 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 353.725382 70.361993 
+Q 356.706072 70.361993 358.736433 70.361993 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 355.736433 68.861993 
+L 358.736433 70.361993 
+L 355.736433 71.861993 
+" style="fill: none; stroke: #6b767f; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p512543633d">
+   <rect x="3.00024" y="3.00024" width="433.19952" height="130.79952"/>
+  </clipPath>
+ </defs>
+</svg>

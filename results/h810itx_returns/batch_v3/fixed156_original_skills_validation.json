@@ -1,0 +1,53 @@
+[
+  {
+    "file": "fixed156_original_skills.csv",
+    "flow": "fixed",
+    "aircraft": 156,
+    "horizon_minutes": 120,
+    "status": "PASS",
+    "errors": [],
+    "tow_count": 16,
+    "oil_count": 16,
+    "intersection_count": 4,
+    "vehicle_additions": {
+      "Z1": 6,
+      "Z2": 17,
+      "Z3": 1,
+      "Z4": 0,
+      "Z5": 15,
+      "Z6": 14,
+      "Z7": 1,
+      "Z8": 15,
+      "Z9": 3
+    },
+    "people_additions": {
+      "M1": 5,
+      "M2": 0,
+      "M3": 0,
+      "M4": 0,
+      "M5": 0,
+      "M6": 0,
+      "M7": 38,
+      "M8": 0
+    },
+    "resource_peaks": {
+      "vehicle_Z3": 5,
+      "vehicle_Z4": 4,
+      "vehicle_Z5": 30,
+      "vehicle_Z6": 29,
+      "vehicle_Z7": 2,
+      "vehicle_Z2": 29,
+      "vehicle_Z8": 25,
+      "vehicle_Z1": 14,
+      "vehicle_Z9": 4,
+      "staff_M8": 16,
+      "staff_M7": 116,
+      "staff_M2": 4,
+      "staff_M6": 58,
+      "staff_M1": 100,
+      "staff_M5": 28,
+      "staff_M3": 6,
+      "staff_M4": 16
+    }
+  }
+]

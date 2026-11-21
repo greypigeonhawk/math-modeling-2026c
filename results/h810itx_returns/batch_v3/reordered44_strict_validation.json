@@ -1,0 +1,34 @@
+[
+  {
+    "file": "reordered44_strict.csv",
+    "flow": "reordered",
+    "aircraft": 44,
+    "horizon_minutes": 100,
+    "status": "PASS",
+    "errors": [],
+    "tow_count": 5,
+    "oil_count": 5,
+    "intersection_count": 1,
+    "vehicle_additions": {},
+    "people_additions": {},
+    "resource_peaks": {
+      "vehicle_Z3": 4,
+      "vehicle_Z4": 5,
+      "vehicle_Z1": 5,
+      "vehicle_Z7": 1,
+      "vehicle_Z2": 12,
+      "vehicle_Z8": 10,
+      "vehicle_Z5": 15,
+      "vehicle_Z6": 15,
+      "vehicle_Z9": 1,
+      "staff_M8": 16,
+      "staff_M5": 16,
+      "staff_M2": 6,
+      "staff_M6": 32,
+      "staff_M1": 44,
+      "staff_M7": 40,
+      "staff_M4": 4,
+      "staff_M3": 4
+    }
+  }
+]

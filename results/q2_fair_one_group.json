@@ -1,0 +1,271 @@
+{
+  "status": "OPTIMAL",
+  "complete_problem2": false,
+  "scope": "restricted fairness candidate; fixed tow/oil, primary skills, singleton vehicles, all material, M batch staff",
+  "aircraft_a": 1,
+  "aircraft_b": 1,
+  "fixed_dispatch_source": "results/q2_fair_candidate.json",
+  "source_sha256": "088ad6c553f3e19b7cf6c29eb3477e0a2b237b2047ecf8d1f7daa3bd2a3a0687",
+  "normalized_input_sha256": "0e303279b5947c23eb6491354a83ba778ee72c0edd9a74abacbc32c22138e569",
+  "group_utilization_range_thousandths": 0,
+  "group_utilization_thousandths": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0,
+    "M4": 0,
+    "M5": 0,
+    "M6": 0,
+    "M7": 125,
+    "M8": 0
+  },
+  "active_groups": [
+    "M7"
+  ],
+  "group_workload_person_minutes": {
+    "M1": 0.0,
+    "M2": 0.0,
+    "M3": 0.0,
+    "M4": 0.0,
+    "M5": 0.0,
+    "M6": 0.0,
+    "M7": 15.0,
+    "M8": 0.0
+  },
+  "dispatch_people": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0,
+    "M4": 0,
+    "M5": 0,
+    "M6": 0,
+    "M7": 1,
+    "M8": 0
+  },
+  "dispatch_vehicles": {
+    "Z1": 0,
+    "Z2": 0,
+    "Z3": 0,
+    "Z4": 0,
+    "Z5": 0,
+    "Z6": 0,
+    "Z7": 0,
+    "Z8": 0,
+    "Z9": 0
+  },
+  "operations": [
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "power_a",
+      "start_min": 10.0,
+      "end_min": 25.0,
+      "vehicle": "Z5",
+      "group": "M7",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "aircon_a",
+      "start_min": 10.0,
+      "end_min": 25.0,
+      "vehicle": "Z6",
+      "group": "M7",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "fuel",
+      "start_min": 10.0,
+      "end_min": 25.0,
+      "vehicle": "Z2",
+      "group": "M6",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "oxygen",
+      "start_min": 25.0,
+      "end_min": 28.0,
+      "vehicle": "Z3",
+      "group": "M8",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "nitrogen",
+      "start_min": 25.0,
+      "end_min": 28.0,
+      "vehicle": "Z4",
+      "group": "M8",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "meal",
+      "start_min": 28.0,
+      "end_min": 36.0,
+      "vehicle": "Z8",
+      "group": "M1",
+      "people": 2,
+      "origin": "M"
+    },
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "power_b",
+      "start_min": 36.0,
+      "end_min": 51.0,
+      "vehicle": "Z5",
+      "group": "M7",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "aircon_b",
+      "start_min": 36.0,
+      "end_min": 51.0,
+      "vehicle": "Z6",
+      "group": "M7",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "tow",
+      "start_min": 0.0,
+      "end_min": 10.0,
+      "vehicle": "Z1",
+      "group": "M5",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 0,
+      "type": "A",
+      "operation": "oil",
+      "start_min": 15.0,
+      "end_min": 25.0,
+      "vehicle": "Z7",
+      "group": "M2",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 1,
+      "type": "B",
+      "operation": "power_a",
+      "start_min": 0.0,
+      "end_min": 16.666666666666668,
+      "vehicle": "Z5",
+      "group": "M7",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 1,
+      "type": "B",
+      "operation": "aircon_a",
+      "start_min": 0.0,
+      "end_min": 16.666666666666668,
+      "vehicle": "Z6",
+      "group": "M7",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 1,
+      "type": "B",
+      "operation": "fuel",
+      "start_min": 0.0,
+      "end_min": 33.333333333333336,
+      "vehicle": "Z2",
+      "group": "M6",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 1,
+      "type": "B",
+      "operation": "oxygen",
+      "start_min": 33.333333333333336,
+      "end_min": 36.666666666666664,
+      "vehicle": "Z3",
+      "group": "M8",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 1,
+      "type": "B",
+      "operation": "nitrogen",
+      "start_min": 33.333333333333336,
+      "end_min": 36.666666666666664,
+      "vehicle": "Z4",
+      "group": "M8",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 1,
+      "type": "B",
+      "operation": "meal",
+      "start_min": 36.666666666666664,
+      "end_min": 64.44444444444444,
+      "vehicle": "Z8",
+      "group": "M1",
+      "people": 2,
+      "origin": "M"
+    },
+    {
+      "aircraft": 1,
+      "type": "B",
+      "operation": "power_b",
+      "start_min": 64.44444444444444,
+      "end_min": 81.11111111111111,
+      "vehicle": "Z5",
+      "group": "M7",
+      "people": 1,
+      "origin": "M"
+    },
+    {
+      "aircraft": 1,
+      "type": "B",
+      "operation": "aircon_b",
+      "start_min": 64.44444444444444,
+      "end_min": 79.44444444444444,
+      "vehicle": "Z6",
+      "group": "M7",
+      "people": 1,
+      "origin": "N"
+    }
+  ],
+  "batch_operations": [
+    {
+      "operation": "material",
+      "batch": 0,
+      "start_min": 10.0,
+      "end_min": 20.0,
+      "origin": "M"
+    },
+    {
+      "operation": "parachute",
+      "batch": 0,
+      "start_min": 20.0,
+      "end_min": 27.0,
+      "origin": "M"
+    }
+  ]
+}

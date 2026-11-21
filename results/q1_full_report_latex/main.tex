@@ -1,0 +1,260 @@
+\documentclass[UTF8,12pt,a4paper,fontset=none]{ctexart}
+\setCJKmainfont[AutoFakeSlant=0.2]{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,array,tabularx,longtable,multirow}
+\usepackage{geometry,graphicx,xcolor,enumitem,caption,float}
+\usepackage[hidelinks]{hyperref}
+\geometry{left=2.2cm,right=2.2cm,top=2.1cm,bottom=2.1cm}
+\definecolor{navy}{HTML}{12324A}
+\definecolor{teal}{HTML}{287C8E}
+\definecolor{gold}{HTML}{D19A39}
+\definecolor{brick}{HTML}{B85C38}
+\definecolor{audit}{HTML}{FFF1EE}
+\definecolor{auditline}{HTML}{B85C38}
+\definecolor{softblue}{HTML}{EAF3F6}
+\hypersetup{colorlinks=true,linkcolor=navy,urlcolor=teal}
+\captionsetup{font=small,labelfont=bf}
+\setlist{itemsep=2pt,topsep=3pt}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\setlength{\parskip}{3pt}
+\newcommand{\keywords}[1]{\par\noindent\textbf{关键词}\quad #1}
+\newcommand{\sectionpage}{\clearpage}
+\input{evidence}
+\title{\textcolor{navy}{第一题\quad A 型飞机首次保障调度}\\[6pt]
+\large 模型、排程与人车增配分析}
+\author{数学建模小组}
+\date{2026年11月21日}
+\begin{document}
+\maketitle
+\begin{abstract}
+研究 M 地勤在固定流程和可调流程下的保障能力与增援需求。采用有向工序网络刻画任务约束，以同步批次描述充气和双机电源空调保障，以累计资源约束检查车辆与操作员的并发占用。现有人车采用原技能表时，固定流程在 \FixedShortLast 分钟完成 \FixedShortAircraft 架，并达到由加油时间窗推出的上界。可调流程在 \FlexShortLast 分钟完成 \FlexShortAircraft 架，最大保障量介于 52 至 60 架。120 分钟保障 156 架时，两种流程均有原技能表的可行方案。将五项已有第三技能升至第二技能后，固定流程可新增 \FixedLongCars 辆车、\FixedLongPeople 人，可调流程可新增 \FlexLongCars 辆车、\FlexLongPeople 人。正文给出逐车种增配、资源峰值和必要下界。
+\keywords{地面保障、资源约束调度、批次作业、技能补位}
+\end{abstract}
+
+\section{问题重述与数据口径}
+第一问包含三个决策。第一，保持附录 2 图 1 的固定流程，求现有资源在 100 分钟内最多能保障多少架 A 型机，并研究 120 分钟保障 156 架的增援配置。第二，依附录 2 的调整规则重复计算。第三，优化附录 4 的一专多能方案，保留每组的第一技能，并限制第二技能和总技能数。
+\begin{itemize}
+\item 设备库存和人员编配取自附录 5，基准工时及车人配套取自附录 6，技能等级取自附录 4。以 0 分钟为统一开工时点，0.25 分钟为求解刻度，所有作业连续执行。
+\item 牵引、附油分别按任务架数的 10\% 向上取整。两者交集按牵引架数的 20\% 向上取整。156 架对应各 16 架，其中 4 架同时需要两项作业。
+\item 主方案按全机需要航材处理。每批航材最多 20 架，伞勤点最多 40 架。伞勤采用整组释放。原图要求伞勤和餐食均在 B 段开始前完成。已有固定流程求解进一步要求整组伞勤先于餐食，报告将这条约束作为保守构造条件。
+\item 充氧、充氮按每车每批至多 10 架处理，每个活跃批次分别占一辆 Z3 或 Z4 和一名操作员。批次结束后车人可周转。电源及空调每车每次至多两架，配对作业需共用起止时刻及操作员。
+\end{itemize}
+
+\sectionpage
+\section{工序网络与资源模型}
+图\ref{fig:q1-network}概括固定流程。牵引和附油仅对相应飞机启用。充氧、充氮是两个独立作业，可以并行，但分别占用各自车辆和操作员。可调流程保留给定的牵引要求与 B 段末端位置。餐食排在加油、充氧、充氮之后。充氧与加油及电源互斥，电源与餐食互斥。原图中的两条分支在 B 段开始前汇合。用于构造固定流程排程的附加约束以虚线表示。
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[>=Stealth,font=\small,
+box/.style={draw=teal,fill=softblue,rounded corners=2pt,align=center,minimum width=2.15cm,minimum height=9mm}]
+\node[box] (tow) at (0,0) {按需牵引};
+\node[box] (pre) at (3.1,0) {电源 A、空调 A\\加油、按需附油};
+\node[box] (gas) at (6.5,0) {充氧、充氮};
+\node[box] (meal) at (9.6,0) {餐食};
+\node[box] (end) at (13.05,0) {电源 B、空调 B};
+\node[box] (mat) at (3.1,-1.5) {航材};
+\node[box] (chute) at (6.5,-1.5) {伞勤};
+\foreach \a/\b in {tow/pre,pre/gas,gas/meal,meal/end,mat/chute}{\draw[->,teal,thick] (\a)--(\b);}
+\draw[->,teal,thick] (tow.south)|-(mat.west);
+\draw[->,teal,thick] (chute.east)--++(0.6,0)-|(end.south);
+\draw[->,brick,dashed] (chute.north east)--(meal.south west);
+\end{tikzpicture}
+\caption{原题固定流程及保守排程使用的附加先后关系（虚线）}
+\label{fig:q1-network}
+\end{figure}
+
+\begin{table}[ht]
+\centering\small
+\caption{主要符号}
+\label{tab:symbols}
+\begin{tabularx}{0.92\linewidth}{lXl}
+\toprule
+符号 & 含义 & 单位\\
+\midrule
+$N,T$ & 任务架数、可用时间窗 & 架、分钟\\
+$s_j,c_j,p_j$ & 作业 $j$ 的开始时刻、结束时刻和占用时长 & 分钟\\
+$p_o^0,\eta_\ell$ & 工序 $o$ 的第一技能基准时长、技能等级系数 & 分钟、无量纲\\
+$a_{jv}, b_{jg}$ & 作业 $j$ 占用的车型 $v$ 数量、专业组 $g$ 人数 & 辆、人\\
+$V_v,P_g$ & 车型 $v$ 的库存、专业组 $g$ 的编配人数 & 辆、人\\
+$\Delta V_v,\Delta P_g$ & 车型 $v$ 新增车辆、专业组 $g$ 新增人员 & 辆、人\\
+\bottomrule
+\end{tabularx}
+\end{table}
+表\ref{tab:symbols}用于描述区间模型。一个实际作业可覆盖一架飞机或一个同步批次。对一般工序，按技能系数折算时长
+\begin{equation}
+p_j=p_o^0/\eta_\ell,\qquad (\eta_1,\eta_2,\eta_3)=(1,0.8,0.4).
+\end{equation}
+伞勤系数为 1，$n$ 架一批占用 $6+0.5n$ 分钟。航材每批 10 分钟，固定用 1 名 M3 与 2 名 M4。餐食作业占 2 人。图中的紧前关系对各自作业区间生效
+\begin{equation}
+0\le s_j,\qquad c_j=s_j+p_j\le T,\qquad c_j\le s_k\ \text{若作业 }j\text{ 紧前于 }k.
+\end{equation}
+
+\sectionpage
+\subsection{并发约束与求解目标}
+同一时刻，车辆和人员各按实际作业计量。对于任意车型 $v$、专业组 $g$ 和时点 $t$，
+\begin{align}
+\sum_{j: s_j\le t<c_j} a_{jv} &\le V_v+\Delta V_v,\\
+\sum_{j: s_j\le t<c_j} b_{jg} &\le P_g+\Delta P_g.
+\end{align}
+一项配对作业在两架飞机的记录中分别出现，容量计算只累计一次。对牵引，另按题表校核车型配置。因此 156 架的 16 项牵引要求车辆配置至少 $\lceil 16/1.2\rceil=14$ 辆。
+\par 对 100 分钟任务，固定库存并最大化 $N$，先用工时下界推导可搜规模，再对候选架数构造排程。对 156 架任务，先压缩新增车辆总数，再在相同车辆数下压缩新增人数。本轮在 M7 最多新增 13 人的搜索范围内，使用目标
+\begin{equation}
+\min\left(14\sum_v \Delta V_v+\sum_g\Delta P_g\right).
+\end{equation}
+附录 8 的车型优先级用于可替代方案的研判。上式是本轮局部重排的实际目标，按车数和人数比较。
+
+\subsection{基于已有排程的局部重排}
+图\ref{fig:q1-method}显示数值计算步骤。首先检查 100 分钟任务的加油上界，并以分批和双机作业构造方案。随后对 156 架已有方案重排作业区间，保留充气、航材和伞勤的批次成员，保留已有双机配对，同时在按原时刻排序的单机作业中，为每项选取至多三个邻近配对候选。电源和空调作业可在有相应技能的组之间重新分配，各类车辆上限取自本轮初始排程。求解采用 OR-Tools CP-SAT，导出后重新按区间事件计算资源峰值。
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[font=\small,>=Stealth,
+flowbox/.style={draw=navy,fill=softblue,rounded corners=2pt,minimum height=12mm,minimum width=3.15cm,align=center}]
+\node[flowbox] (a) at (0,0) {题面与资源库存\\工序、工时和技能};
+\node[flowbox] (b) at (3.85,0) {必要工时与尾链\\计算保障上界};
+\node[flowbox] (c) at (7.7,0) {构造或重排作业\\双机配对与补位};
+\node[flowbox] (d) at (11.55,0) {导出排程\\重算时序与峰值};
+\foreach \a/\b in {a/b,b/c,c/d}{\draw[->,teal,thick](\a)--(\b);}
+\end{tikzpicture}
+\caption{从题面约束到可复核方案的计算步骤}
+\label{fig:q1-method}
+\end{figure}
+\subsection{模型适用范围}
+增援结果受预设分组、配对候选与技能方案限制。进一步改变分组或放开人员方案仍可能改善结果。必要下界通过删除部分限制得到，分别说明推导所用条件。两组 100 分钟排程使用原技能表，156 架排程区分原技能基线和调整后的结果。
+
+\sectionpage
+\section{现有资源下的百分钟保障量}
+\subsection{固定流程}
+加油之后至少有 3 分钟充气、8 分钟餐食和 15 分钟 B 段。每架飞机的加油最迟须在第 74 分钟完成。现有 12 辆 Z2，每辆可排至多四个至少 15 分钟的不可中断作业，故
+\begin{equation}
+N_{\rm fixed}\le 12\left\lfloor\frac{100-(3+8+15)}{15}\right\rfloor=48.
+\end{equation}
+构造排程将四轮加油的启动时刻放在第 0、15、30、45 分钟。航材和伞勤按 20、20、8 架分组，单辆 Z9 依次处理各组，伞勤完成时刻为 26、52、72 分钟。图\ref{fig:q1-waves}显示后一组作业可以与前一组的餐食及 B 段交叠。逐机复核确认 \FixedShortAircraft 架于第 \FixedShortLast 分钟完成。可行架数与上界相等，固定流程在本文口径下的最大保障量为 48 架。
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[x=0.13cm,y=0.68cm,font=\small]
+\foreach \a/\b/\c/\y/\n in {0/10/26/3/20,26/36/52/2/20,52/62/72/1/8}{
+\node[left] at (0,\y+0.22){\n 架};
+\fill[teal] (\a,\y) rectangle (\b,\y+0.45);
+\fill[gold] (\b,\y) rectangle (\c,\y+0.45);
+\node[above,inner sep=2pt] at (\c,\y+0.45){\c};}
+\draw[-{Stealth}] (0,0.6)--(102,0.6) node[right]{分钟};
+\foreach \t in {0,20,40,60,80,100}{\draw (\t,0.55)--(\t,0.65);\node[below] at (\t,0.55){\t};}
+\fill[teal] (6,-0.40) rectangle (10,-0.12); \node[right] at (10,-0.26){航材};
+\fill[gold] (24,-0.40) rectangle (28,-0.12); \node[right] at (28,-0.26){伞勤};
+\draw[brick,dashed] (\FixedShortLast,0.72)--(\FixedShortLast,3.6);
+\node[brick,anchor=east] at (98,3.15){末架完工 \FixedShortLast};
+\end{tikzpicture}
+\caption{固定流程 48 架排程中的 Z9 作业时序}
+\label{fig:q1-waves}
+\end{figure}
+\subsection{可调流程}
+充氧可以排在加油之前。加油之后仍至少要给餐食和 B 段留出 23 分钟，故
+\begin{equation}
+N_{\rm flex}\le 12\left\lfloor\frac{100-(8+15)}{15}\right\rfloor=60.
+\end{equation}
+采用 20、20、12 架伞勤分组，并让适合的飞机按双机配对执行电源与空调。现有资源可在第 \FlexShortLast 分钟完成 \FlexShortAircraft 架，且 B 段保持在末尾。最大保障量的已验证区间为 $[\FlexShortAircraft,60]$ 架。两种流程均使用原技能表。
+
+\sectionpage
+\section{156 架任务的可行增援}
+表\ref{tab:results}汇总各问的数值与证据。原技能表可用同一份排程满足两种流程。技能调整后的结果分别由对应流程的排程复核取得。表\ref{tab:vehicles}列出逐车型增量和实际并发峰值。Z1 的配车数量还需满足牵引比例，因此其增量可以高于实际峰值减库存。
+\begin{table}[ht]
+\centering\small
+\caption{任务目标、可行结果与理论界}
+\label{tab:results}
+\begin{tabular}{llll}
+\toprule
+任务 & 流程与技能 & 已验证结果 & 理论界\\
+\midrule
+100 分钟 & 固定，原技能 & \FixedShortAircraft 架 & 最大值 48 架\\
+100 分钟 & 可调，原技能 & \FlexShortAircraft 架 & 最大值 $\le60$ 架\\
+156 架 & 固定，原技能 & \OriginalCars 辆、\OriginalPeople 人 & 至少增 38 辆\\
+156 架 & 可调，原技能 & \OriginalCars 辆、\OriginalPeople 人 & 至少增 37 辆\\
+156 架 & 固定，调整技能 & \FixedLongCars 辆、\FixedLongPeople 人 & 至少增 38 辆\\
+156 架 & 可调，调整技能 & \FlexLongCars 辆、\FlexLongPeople 人 & 至少增 37 辆\\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{两份技能调整排程的车型配置与峰值（辆）}
+\label{tab:vehicles}
+\begin{tabular}{lrrrrr}
+\toprule
+& & \multicolumn{2}{c}{固定流程} & \multicolumn{2}{c}{可调流程}\\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+车型 & 库存 & 新增 & 峰值 & 新增 & 峰值\\
+\midrule
+\VehicleRows
+\bottomrule
+\end{tabular}
+\end{table}
+调整技能后的固定排程和可调排程均在第 \FixedLongLast 分钟完工。两套方案的车辆总数相同，固定流程新增人员较少。可调排程使用较少的 Z8 和 Z9，使用较多的 Z5 和 Z6。两份排程的人力峰值及配员列于表\ref{tab:people}。当前获得的是新增车数优先时的可行组合，独立最少增人量及最少增车量仍有未闭合的差距。
+
+\sectionpage
+\section{增援下界与队友稿对照}
+\subsection{分车型必要下界}
+156 架要求每辆加油车最多保障六架。固定与可调流程的加油截止时刻分别是 94、97 分钟，故两种流程均至少需 $\lceil156/6\rceil=26$ 辆 Z2，新增 14 辆。Z5 与 Z6 每类均须承担两段 15 分钟作业，即使每辆车始终满载配对，也分别至少需要 $\lceil156\times 2\times15/(2\times120)\rceil=20$ 辆，各新增 5 辆。牵引配比给出 6 辆新增 Z1，16 项附油给出至少新增 1 辆 Z7。充气工作量下界允许原有 Z3 与 Z4 周转。
+\par 餐食最迟在第 105 分钟结束。固定流程最早在第 18 分钟开始餐食，每辆 Z8 最多做十项，因此至少需 16 辆。可调流程最早从第 15 分钟开始，每辆最多做十一项，至少需 15 辆。航材与伞勤最少占用 Z9 的车辆工时为
+\begin{equation}
+W_9\ge 8\times10+4\times6+156\times0.5=182\ \text{车分钟}.
+\end{equation}
+至少需要 2 辆 Z9。单车型下界相加得固定流程新增至少 38 辆，可调流程至少 37 辆。
+
+\subsection{固定流程下 Z8 与 Z9 的联合下界}
+在已有固定排程采用的保守口径下，整组伞勤必须先于餐食。考虑 2 辆 Z9 和至多 17 辆 Z8。由于餐食工时至少为 8 分钟且必须在第 105 分钟前完成，第 25 分钟后至多还能启动 153 项餐食，第 89 分钟后至多 17 项。因此第 25 分钟前至少有一组结束伞勤，第 89 分钟前至少有 139 架结束伞勤。航材最早在第 10 分钟结束，首个在第 25 分钟前完成的伞勤组最多含 18 架。四组最多覆盖 $18+3\times40=138$ 架，故到第 89 分钟至少应完成五组。
+\par 固定流程的伞勤最迟在第 97 分钟结束，两辆 Z9 最多提供 194 车分钟。航材与发伞至少占用 $80+78=158$ 车分钟，另有每组 6 分钟设点，因而至多六组。若只有五组，要求所有 Z9 作业在第 89 分钟前完成，182 车分钟的必要工作量已超过可用的 178。若有六组，两辆 Z9 须从第 0 分钟连续工作到第 97 分钟，且航材之后还须完成本组伞勤，所以两辆车在第 97 分钟结束的作业都只能是伞勤。于是第 89 分钟最多完成四组。两种情况均矛盾。
+\par 因此固定流程至少要在逐车型下界之和上再增加一辆车，得到 39 辆的联合下界。在维持 2 辆 Z9 时，Z8 至少要有 18 辆。该证明采用全机航材、整组伞勤释放和固定流程。
+
+\subsection{与队友已有结果的可比性}
+固定流程同为 48 架。我方以第 \FixedShortLast 分钟完工的逐机排程达到上界，队友稿报告的 95 分钟仍待逐机记录核对。可调流程的已验证完成数由队友稿中的 48 架提高到 \FlexShortAircraft 架。队友稿的 52 辆、21 人若按本报告的整批牵引配比补齐，需新增 58 辆、21 人。该清单的 2 辆 Z9 与 16 辆 Z8 在额外要求伞勤先于餐食时排不开。按原图只要求两项均先于 B 段时，这套清单仍待逐机排程验证。我方固定方案新增 \FixedLongCars 辆、\FixedLongPeople 人，采用调整后的技能表，排班效应与技能表效应尚未单独识别。
+
+\sectionpage
+\section{技能配置与复核材料}
+表\ref{tab:skills}给出完整建议表。M1、M3、M5、M6、M7 分别升一项已有第三技能。每组保持一项第一技能、至多三项第二技能和五项总技能。该表用于固定和可调两份 156 架排程。
+\begin{table}[ht]
+\centering\small
+\caption{建议的一专多能技能方案}
+\label{tab:skills}
+\begin{tabularx}{\linewidth}{llXXl}
+\toprule
+小组 & 第一技能 & 第二技能 & 第三技能 & 升级项\\
+\midrule
+\SkillRows
+\bottomrule
+\end{tabularx}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{两份技能调整排程的配员与峰值（人）}
+\label{tab:people}
+\begin{tabular}{lrrrrr}
+\toprule
+& & \multicolumn{2}{c}{固定流程} & \multicolumn{2}{c}{可调流程}\\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+小组 & 编配 & 新增 & 峰值 & 新增 & 峰值\\
+\midrule
+\StaffRows
+\bottomrule
+\end{tabular}
+\end{table}
+\sectionpage
+\section{结论与可复核排程}
+\begin{enumerate}
+\item 固定流程的 100 分钟最大保障量为 \FixedShortAircraft 架，逐机排程在第 \FixedShortLast 分钟完工。原技能表下，可调流程已验证 \FlexShortAircraft 架，末架在第 \FlexShortLast 分钟完成，理论上界为 60 架。
+\item 原技能表下，新增 \OriginalCars 辆、\OriginalPeople 人可完成 156 架。应用表\ref{tab:skills}后，固定流程与可调流程分别可采用新增 \FixedLongCars 辆、\FixedLongPeople 人和 \FlexLongCars 辆、\FlexLongPeople 人的组合。
+\item 156 架增援的车辆下界分别为原图固定流程 38 辆和可调流程 37 辆。额外要求伞勤先于餐食时，固定流程下界为 39 辆。两份最新排程把可行上界压至 57 辆。若按车辆优先、人数次之比较当前候选，同为 57 辆时固定流程少增 4 人。
+\end{enumerate}
+\subsection{逐机排程的核查方式}
+CSV 按飞机记录各工序的起止时刻、操作组、技能等级及配对或充气批次编号。航材和伞勤另有批次记录。对同一组、同一车辆类别执行事件扫描，同一时刻先释放到期资源，再计入新开始的作业。复核同时检查 10\% 作业数量、牵引资源配比、完成时限以及可调流程的 B 段边界。
+\subsection{排程文件索引}
+\begin{itemize}
+\item 固定 48 架排程为 \texttt{peer\_flow/fixed48\_preset.csv}。
+\item 可调 52 架排程为 \texttt{round3/reordered52.csv}。
+\item 156 架排程及增配记录位于 \texttt{round3} 目录，文件名分别以 \texttt{fixed} 和 \texttt{reordered} 开头。
+\item 原技能表基线为 \texttt{batch\_v3/fixed156\_original\_skills.csv}。
+\end{itemize}
+以上路径相对于项目的 \texttt{results/h810itx\_returns}。报告数据由排程复核结果生成。
+\end{document}

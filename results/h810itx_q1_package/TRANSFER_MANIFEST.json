@@ -1,0 +1,46 @@
+{
+  "问题1_优化模型.py": {
+    "sha256": "6d2f8071ef31e7df32c103929e433daa8168c82758e405f1a926699b94bba1a1",
+    "bytes": 37977
+  },
+  "data/新2026C.docx": {
+    "sha256": "088ad6c553f3e19b7cf6c29eb3477e0a2b237b2047ecf8d1f7daa3bd2a3a0687",
+    "bytes": 150809
+  },
+  "题目分析报告.md": {
+    "sha256": "61738f603a6da6f0c124798e6e7fbf96743e1893387a80c0a53a1f60fa3d56db",
+    "bytes": 13207
+  },
+  "术语表格.md": {
+    "sha256": "e5d3e3b2523853ced410626493ff94ab4bad6b70857cf846d9d2446bd71a11e6",
+    "bytes": 3024
+  },
+  "results/q1_source_tables.json": {
+    "sha256": "4b10def9fece65fa09653fc7ee53efba1575b9dd50d98ed840b55b7a747c2d62",
+    "bytes": 5257
+  },
+  "results/q1_skilloptimized_fixed156_candidate.csv": {
+    "sha256": "121678289247878f9509f8d5e10108080cf405bacbdb5967acebec6daa359c5b",
+    "bytes": 47471
+  },
+  "results/q1_skilloptimized_reordered156_candidate.csv": {
+    "sha256": "1f02502439ccf64dbe38dea7a7c5f29b459f87dfc2a10b22c2e80aeb09c5df4e",
+    "bytes": 47462
+  },
+  "results/q1_fixed156_resource_additions.json": {
+    "sha256": "ed1074d29f9efa8061f30fa3d35ae4607945ad2bcd23b42cbd172daddd040fd7",
+    "bytes": 817
+  },
+  "results/q1_reordered156_resource_additions.json": {
+    "sha256": "2de189de8f38c69d9106130060f34ea073e03c6e7753dc861053f1d5a1e11013",
+    "bytes": 822
+  },
+  "results/q1_fixed_flow_max_schedule.csv": {
+    "sha256": "fd078139258ede6c806a8f5676e2db1d65da84d9f7e9f2332c449d71bf7250a5",
+    "bytes": 6990
+  },
+  "results/q1_reordered_max_schedule.csv": {
+    "sha256": "2fb9403a86585cec83d779be254e371468dba858cf66719e30bee84305adf3fc",
+    "bytes": 6990
+  }
+}

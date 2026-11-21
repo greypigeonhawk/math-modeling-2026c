@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-21T07:20:05.156902+00:00",
+  "passed": true,
+  "main_tex": "main.tex",
+  "project_root": "/home/pigeon/Documents/ChatGPT/数学建模/results/q1_team_brief_latex",
+  "source_sha256": "bdd146fdd6fe2d266c7c0f96968256c5af9ff7e1fa337fbd11dcb993ef563fc1",
+  "compiled_source_sha256": "bdd146fdd6fe2d266c7c0f96968256c5af9ff7e1fa337fbd11dcb993ef563fc1",
+  "post_build_source_sha256": "bdd146fdd6fe2d266c7c0f96968256c5af9ff7e1fa337fbd11dcb993ef563fc1",
+  "pdf_sha256": "8614ea7cf99a87abf7ee5de8f0515a968b1ecc04d77019f14eb7b6125ed58f8f",
+  "project_manifest_sha256": "a280fec6d0cad0fc8148a8724033db37d0db94c3f69107b33dd324978c6d7a30",
+  "engine": "xelatex",
+  "tools": {
+    "latexmk": {
+      "path": "/usr/bin/latexmk",
+      "version": "Latexmk, John Collins, 31 Jan. 2024. Version 4.83"
+    },
+    "xelatex": {
+      "path": "/usr/bin/xelatex",
+      "version": "XeTeX 3.141592653-2.6-0.999995 (TeX Live 2023/Debian)"
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "/usr/bin/latexmk",
+        "-norc",
+        "-gg",
+        "-xelatex",
+        "-e",
+        "$xelatex = 'xelatex -no-shell-escape %O %S'",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "-outdir=build",
+        "main.tex"
+      ],
+      "cwd": "/home/pigeon/Documents/ChatGPT/数学建模/results/q1_team_brief_latex",
+      "returncode": 0,
+      "duration_seconds": 3.796
+    }
+  ],
+  "warnings": [],
+  "allowed_warnings": [],
+  "warning_override": {
+    "patterns": [],
+    "reason": null
+  },
+  "issues": [],
+  "reproduce": "/home/pigeon/miniconda3/bin/python /home/pigeon/.codex/skills/math-modeling/tools/latex/scripts/latex_paper.py build /home/pigeon/Documents/ChatGPT/数学建模/results/q1_team_brief_latex/main.tex --engine xelatex --timeout 180 --publish /home/pigeon/Documents/ChatGPT/数学建模/results/q1_team_brief.pdf --overwrite"
+}

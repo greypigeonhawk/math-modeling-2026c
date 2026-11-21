@@ -1,0 +1,35 @@
+{
+  "status": "FEASIBLE",
+  "objective": 1116740108.0,
+  "bound": 153197182.0,
+  "limit_minutes": 120,
+  "solver_time_limit_seconds": 120.0,
+  "solver_wall_time_seconds": 120.038255746,
+  "solver_workers": 4,
+  "max_added_vehicles": null,
+  "reordered": false,
+  "fixed_aircraft_count": 156,
+  "tested_aircraft_count": null,
+  "promoted_skills": [],
+  "people_additions": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0,
+    "M4": 0,
+    "M5": 102,
+    "M6": 0,
+    "M7": 0,
+    "M8": 6
+  },
+  "vehicle_additions": {
+    "Z1": 8,
+    "Z2": 89,
+    "Z3": 4,
+    "Z4": 0,
+    "Z5": 22,
+    "Z6": 20,
+    "Z7": 3,
+    "Z8": 36,
+    "Z9": 4
+  }
+}

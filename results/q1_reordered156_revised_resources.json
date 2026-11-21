@@ -1,0 +1,68 @@
+{
+  "status": "FEASIBLE",
+  "objective": 1032606056.0,
+  "bound": 390334009.0,
+  "limit_minutes": 100,
+  "solver_time_limit_seconds": 600.0,
+  "solver_wall_time_seconds": 600.193657872,
+  "solver_workers": 10,
+  "max_added_vehicles": null,
+  "reordered": true,
+  "fixed_aircraft_count": 156,
+  "tested_aircraft_count": null,
+  "promoted_skills": [
+    [
+      "M1",
+      "航材"
+    ],
+    [
+      "M2",
+      "伞勤"
+    ],
+    [
+      "M3",
+      "电源空调"
+    ],
+    [
+      "M4",
+      "牵引"
+    ],
+    [
+      "M5",
+      "餐食"
+    ],
+    [
+      "M6",
+      "餐食"
+    ],
+    [
+      "M7",
+      "餐食"
+    ],
+    [
+      "M8",
+      "加油"
+    ]
+  ],
+  "people_additions": {
+    "M1": 19,
+    "M2": 0,
+    "M3": 0,
+    "M4": 1,
+    "M5": 0,
+    "M6": 0,
+    "M7": 27,
+    "M8": 9
+  },
+  "vehicle_additions": {
+    "Z1": 6,
+    "Z2": 31,
+    "Z3": 12,
+    "Z4": 9,
+    "Z5": 46,
+    "Z6": 50,
+    "Z7": 1,
+    "Z8": 16,
+    "Z9": 1
+  }
+}

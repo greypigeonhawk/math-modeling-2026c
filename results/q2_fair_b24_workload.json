@@ -1,0 +1,28 @@
+{
+  "source_result": "results/q2_fair_b24.json",
+  "status": "FEASIBLE",
+  "aircraft_a": 32,
+  "aircraft_b": 24,
+  "scope": "受限候选方案；组均利用率不代表个人负荷均衡",
+  "groups": [
+    {
+      "group": "M1",
+      "dispatched_people": 4,
+      "workload_person_minutes": 274.4444,
+      "utilization": 0.571759
+    },
+    {
+      "group": "M6",
+      "dispatched_people": 4,
+      "workload_person_minutes": 280.0,
+      "utilization": 0.583333
+    },
+    {
+      "group": "M7",
+      "dispatched_people": 12,
+      "workload_person_minutes": 1050.0,
+      "utilization": 0.729167
+    }
+  ],
+  "group_utilization_range": 0.157408
+}

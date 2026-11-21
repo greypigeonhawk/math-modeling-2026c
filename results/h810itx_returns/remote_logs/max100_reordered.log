@@ -1,0 +1,11 @@
+{
+  "status": "OPTIMAL",
+  "objective": 40.0,
+  "bound": 40.0,
+  "limit_minutes": 100,
+  "reordered": true,
+  "fixed_aircraft_count": null,
+  "tested_aircraft_count": null,
+  "promoted_skills": [],
+  "schedule_csv": "results/q1_remote_reordered_max.csv"
+}
